@@ -2,15 +2,13 @@
 #include <math.h>
 
 int main() {
-    float numero;
-    scanf("%f", &numero);
+    double numero;
+    scanf("%lf", &numero);
     if (numero >= 0 ) {
-        numero = sqrt(numero);
-        printf("%f", numero);
+        printf("%.2lf", sqrt(numero));
     }
-    else {
-        numero = pow(numero, 2);
-        printf("%0.2f", numero);
+    else if (numero < 0) {
+        printf("%.2lf", pow(numero,2));
     }
     return 0;
 
