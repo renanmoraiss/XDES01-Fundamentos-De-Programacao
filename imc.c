@@ -31,15 +31,15 @@ int main() {
         if ((imc >= 18.5) && (imc < 25)) {
             printf("Peso normal\n");
         }
-        if ((imc >=25) && (imc <30)) {
+        if ((imc >=25) && (imc < 30)) {
             printf("Acima do peso\n");
         }
-        else {
+        if (imc >= 30) {
             printf("Obeso\n");
         }
     }
 
-    if ((imc >=25) && (imc <30)) {
+    if (imc >=25) {
         printf("%0.2f\n", peso = peso - pesoIdeal);
         printf("%0.2f", pesoIdeal / (altura * altura));
     }
