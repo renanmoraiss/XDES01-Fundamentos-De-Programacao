@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-
+//AINDA NAO TEM VERIFICACAO DE CARACTERES DIGITADOS PARA IDADE, PESO E ALTURA COM RETORNO NO INICIO DO MESMO JOGADOR, MAS VOU POR!!
     while(1) {
-    float mediaDasIdades = 0.0, peso, somaDosPesos = 0.0, mediaDosPesos = 0.0, porcentagemJogadoresPesoAcima80kg, altura, somaDasAlturas = 0.0, mediaDasAlturas = 0.0, maiorAltura = 0.0, menorAltura = 0.0;
+    float mediaDasIdades = 0.0, peso, somaDosPesos = 0.0, mediaDosPesos = 0.0, porcentagemJogadoresPesoAcima80kg, altura, somaDasAlturas = 0.0, mediaDasAlturas = 0.0, maiorAltura = 0.0;
     int repeticoesEstatisticas, totalDeJogadores, idade, somaDasIdades = 0, idadeInferiorA18 = 0, pesoAcimaDe80kg = 0;
     char continuarOuParar;
 
@@ -13,9 +13,11 @@ int main() {
     printf("\n");
     printf("QUANTOS JOGADORES ESTAO NO TIME: ");
     scanf("%d", &totalDeJogadores);
+    printf("\n");
 
     for (repeticoesEstatisticas = 1; repeticoesEstatisticas <= totalDeJogadores; repeticoesEstatisticas += 1) {
-    printf("INFORMACOES DO JOGADOR NUMERO %d\n", repeticoesEstatisticas);
+    printf("-------JOGADOR %d-------\n", repeticoesEstatisticas);
+    printf("INFORMACOES DO JOGADOR %d\n", repeticoesEstatisticas);
     printf("IDADE: ");
     scanf("%d", &idade);
     if ((idade > 0) && (idade < 18)) {
@@ -23,12 +25,10 @@ int main() {
     }
     printf("ALTURA: ");
     scanf("%f", &altura);
-    printf("PESO: ");
     if (altura > maiorAltura) {
         maiorAltura = altura;
-    } else if (altura < menorAltura) {
-        menorAltura = altura;
     }
+    printf("PESO: ");
     scanf("%f", &peso);
     if (peso > 80) {
         pesoAcimaDe80kg += 1;
@@ -48,8 +48,7 @@ int main() {
     } else {
         printf("NENHUM JOGADOR COM IDADE INFERIOR A 18 ANOS\n");
     }
-    printf("MAIOR ALTURA: %0.2f METRO\n", maiorAltura);
-    printf("MENOR ALTURA: %0.2f METRO\n", menorAltura);
+    printf("MAIOR ALTURA: %0.2f METROS\n", maiorAltura);
     mediaDasIdades = (float) somaDasIdades / totalDeJogadores;
     printf("MEDIA DAS IDADES: %0.2f ANOS\n", mediaDasIdades);
     mediaDasAlturas = somaDasAlturas / totalDeJogadores;
