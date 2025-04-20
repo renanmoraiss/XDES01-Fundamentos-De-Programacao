@@ -54,10 +54,12 @@ int main() {
     mediaDosPesos = somaDosPesos / 5;
     printf("MEDIA DOS PESOS: %0.2f\n", mediaDosPesos);
     porcentagemJogadoresPesoAcima80kg = ((float)pesoAcimaDe80kg / 5) * 100;
-    if (pesoAcimaDe80kg == 0) {
-        printf("NENHUM JOGADOR TEM ACIMA DE 80 KG\n");
+    if (pesoAcimaDe80kg == 1) {
+        printf("%d JOGADOR ACIMA DE 80 KG\n", pesoAcimaDe80kg);
+    } else if (pesoAcimaDe80kg > 1) {
+        printf("%d JOGADORES ACIMA DE 80 KG\n", pesoAcimaDe80kg);    
     } else {
-    printf("%0.0f POR CENTO DOS JOGADORES TEM ACIMA DE 80 KG\n", porcentagemJogadoresPesoAcima80kg);
+        printf("NENHUM JOGADOR ACIMA DE 80 KG\n");
     }
     printf("\n");
     printf("\n");
