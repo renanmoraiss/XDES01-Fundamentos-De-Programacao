@@ -18,7 +18,6 @@ int main() {
     int idadeInferiorA18 = 0;
     char continuarOuParar;
     int limite;
-    float maiorAltura = 0.0;
 
     printf("-----------------------------\n");
     printf("ALGORITMO PARA CALCULAR ESTATISTICAS\n");
@@ -36,9 +35,6 @@ int main() {
     }
     printf("ALTURA: ");
     scanf("%f", &altura);
-    if (altura > altura) {
-        maiorAltura = altura;
-    }
     printf("PESO: ");
     scanf("%f", &peso);
     if (peso > 80) {
@@ -59,7 +55,6 @@ int main() {
     } else {
         printf("NENHUM JOGADOR COM IDADE INFERIOR A 18 ANOS\n");
     }
-    printf("A MAIOR ALTURA E %0.2f M\n", maiorAltura);
     mediaDasIdades = (float) somaDasIdades / limite;
     printf("MEDIA DAS IDADES: %0.2f ANOS\n", mediaDasIdades);
     mediaDasAlturas = somaDasAlturas / limite;
