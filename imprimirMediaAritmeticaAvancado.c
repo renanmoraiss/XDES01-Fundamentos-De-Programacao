@@ -10,7 +10,7 @@ int main() {
     scanf("%d", &quantidadeDeValoresAcalcular);
 
     if (quantidadeDeValoresAcalcular <= 0) {
-        printf("%d nao e uma quantidade valida", quantidadeDeValoresAcalcular);
+        printf("%d nao e uma quantidade valida\n", quantidadeDeValoresAcalcular);
         return 1;
     }
 
