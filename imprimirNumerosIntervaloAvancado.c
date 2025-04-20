@@ -25,10 +25,10 @@ int main() {
         printf("\n");
         printf("\n");   
         
-        printf("Deseja continuar a imprimir outro intervalo?\n");
+        printf("DESEJA CONTINUAR PARA IMPRIMIR OUTRO INTERVALO?\n");
         printf("A. CONTINUAR\n");
-        printf("B. PARAR\n");
-        printf("Digite o caractere da respectiva acao: ");
+        printf("B. ENCERRAR\n");
+        printf("CARACTERE DA ALTERNATIVA ESCOLHIDA: ");
         scanf(" %c", &continuarOuParar);
 
         if ((continuarOuParar == 'B') || (continuarOuParar == 'b')) {

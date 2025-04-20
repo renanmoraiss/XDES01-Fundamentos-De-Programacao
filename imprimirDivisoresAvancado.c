@@ -21,10 +21,10 @@ int main() {
     printf("\n");
     printf("\n");
 
-    printf("Deseja continuar a saber os divisores de outro numero?\n");
+    printf("DESEJA CONTINUAR PARA SABER OS DIVISORES DE OUTRO NUMERO?\n");
     printf("A. CONTINUAR\n");
-    printf("B. PARAR\n");
-    printf("Digite o caractere da respectiva acao: ");
+    printf("B. ENCERRAR\n");
+    printf("CARACTERE DA ALTERNATIVA ESCOLHIDA: ");
     scanf(" %c", &continuarOuParar);
 
     if ((continuarOuParar == 'B') || (continuarOuParar == 'b')) {
