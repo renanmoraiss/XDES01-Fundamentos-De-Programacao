@@ -1,4 +1,4 @@
-<h1 align="center">Algoritmos 📓</h1>
+<h1 align="center">Algoritmos 📝</h1>
 
 ###
 
