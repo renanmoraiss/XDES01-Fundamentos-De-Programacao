@@ -24,7 +24,7 @@ int main() {
     printf("-----------------------------\n");
     printf("\n");
     printf("QUANTOS JOGADORES ESTAO NO TIME: ");
-    scanf("%d", limite);
+    scanf("%d", &limite);
 
     for (nmrDeRepeticoesInfo = 1; nmrDeRepeticoesInfo <= limite; nmrDeRepeticoesInfo += 1) {
     printf("INFORMACOES DO JOGADOR NUMERO %d\n", nmrDeRepeticoesInfo);
