@@ -6,7 +6,7 @@
 
 ###
 
-<h2 align="center">Tecnologias:</h3>
+<h2 align="center">👨‍💻 Tecnologias Utilizadas:</h2>
 
 ###
 
