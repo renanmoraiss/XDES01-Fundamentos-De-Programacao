@@ -56,11 +56,11 @@ int main() {
         printf("NENHUM JOGADOR COM IDADE INFERIOR A 18 ANOS\n");
     }
     mediaDasIdades = (float) somaDasIdades / limite;
-    printf("MEDIA DAS IDADES: %0.2f ANOS\n", mediaDasIdades);
+    printf("MEDIA DAS IDADES: %0.1f ANOS\n", mediaDasIdades);
     mediaDasAlturas = somaDasAlturas / limite;
-    printf("MEDIA DAS ALTURAS: %0.2f METROS\n", mediaDasAlturas);
+    printf("MEDIA DAS ALTURAS: %0.1f METROS\n", mediaDasAlturas);
     mediaDosPesos = somaDosPesos / limite;
-    printf("MEDIA DOS PESOS: %0.2f KG\n", mediaDosPesos);
+    printf("MEDIA DOS PESOS: %0.1f KG\n", mediaDosPesos);
     porcentagemJogadoresPesoAcima80kg = ((float)pesoAcimaDe80kg / limite) * 100;
     if (pesoAcimaDe80kg == 1) {
     printf("%d JOGADOR ACIMA DE 80 KG\n", pesoAcimaDe80kg);
