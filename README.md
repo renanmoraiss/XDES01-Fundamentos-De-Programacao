@@ -2,7 +2,7 @@
 
 ###
 
-<p align="center">Aqui você encontrará todos os algoritmos que desenvolvi durante e para as aulas de Fundamentos de Programação da minha faculdade.</p>
+<p align="center">Aqui você encontrará todos os algoritmos que desenvolvi durante<br> e para as aulas de Fundamentos de Programação da minha faculdade.</p>
 
 ###
 
