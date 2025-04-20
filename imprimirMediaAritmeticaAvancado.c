@@ -28,8 +28,8 @@ printf("\n");
 printf("\n");
 
     printf("Deseja continuar a calcular outras medias?\n");
-    printf("A. Continuar\n");
-    printf("B. Parar\n");
+    printf("A. CONTINUAR\n");
+    printf("B. PARAR\n");
     printf("Digite o caractere da respectiva acao: ");
     scanf(" %c", &continuarOuParar);
 
