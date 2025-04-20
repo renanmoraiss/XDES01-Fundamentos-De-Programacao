@@ -3,33 +3,19 @@
 int main() {
 
     while(1) {
-    float peso; 
-    float somaDosPesos = 0.0;
-    float mediaDosPesos = 0.0;
-    int pesoAcimaDe80kg = 0;
-    float porcentagemJogadoresPesoAcima80kg;
-    float altura;
-    float somaDasAlturas = 0.0;
-    float mediaDasAlturas = 0.0;
-    int idade;
-    int somaDasIdades = 0;
-    float mediaDasIdades = 0.0;
-    int nmrDeRepeticoesInfo;
-    int idadeInferiorA18 = 0;
+    float mediaDasIdades = 0.0, peso, somaDosPesos = 0.0, mediaDosPesos = 0.0, porcentagemJogadoresPesoAcima80kg, altura, somaDasAlturas = 0.0, mediaDasAlturas = 0.0, maiorAltura = 0.0, menorAltura = 0.0;
+    int repeticoesEstatisticas, totalDeJogadores, idade, somaDasIdades = 0, idadeInferiorA18 = 0, pesoAcimaDe80kg = 0;
     char continuarOuParar;
-    int limite;
-    float maiorAltura = 0.0;
-    float menorAltura = 0.0;
 
     printf("-----------------------------\n");
     printf("ALGORITMO PARA CALCULAR ESTATISTICAS\n");
     printf("-----------------------------\n");
     printf("\n");
     printf("QUANTOS JOGADORES ESTAO NO TIME: ");
-    scanf("%d", &limite);
+    scanf("%d", &totalDeJogadores);
 
-    for (nmrDeRepeticoesInfo = 1; nmrDeRepeticoesInfo <= limite; nmrDeRepeticoesInfo += 1) {
-    printf("INFORMACOES DO JOGADOR NUMERO %d\n", nmrDeRepeticoesInfo);
+    for (repeticoesEstatisticas = 1; repeticoesEstatisticas <= limite; repeticoesEstatisticas += 1) {
+    printf("INFORMACOES DO JOGADOR NUMERO %d\n", repeticoesEstatisticas);
     printf("IDADE: ");
     scanf("%d", &idade);
     if ((idade > 0) && (idade < 18)) {
