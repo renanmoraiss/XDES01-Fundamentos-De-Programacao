@@ -70,7 +70,6 @@ int main() {
         printf("NENHUM JOGADOR ACIMA DE 80 KG\n");
     }
     printf("\n");
-    printf("\n");
     printf("DESEJA CONTINUAR PARA CALCULAR AS INFORMACOES DE OUTROS JOGADORES?\n");
     printf("A. CONTINUAR\n");
     printf("B. ENCERRAR\n");
