@@ -21,7 +21,7 @@ int main() {
     printf("\n");
     printf("\n");
 
-    printf("Deseja continuar a saber o(s) divisor(es) de outro numero?\n");
+    printf("Deseja continuar a saber os divisores de outro numero?\n");
     printf("A. CONTINUAR\n");
     printf("B. PARAR\n");
     printf("Digite o caractere da respectiva acao: ");

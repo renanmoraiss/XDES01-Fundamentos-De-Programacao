@@ -25,7 +25,7 @@ int main() {
         printf("\n");
         printf("\n");   
         
-        printf("Deseja continuar a calcular outras medias?\n");
+        printf("Deseja continuar a imprimir outro intervalo?\n");
         printf("A. CONTINUAR\n");
         printf("B. PARAR\n");
         printf("Digite o caractere da respectiva acao: ");
