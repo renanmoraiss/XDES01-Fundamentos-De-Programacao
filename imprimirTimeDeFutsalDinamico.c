@@ -18,6 +18,7 @@ int main() {
     int idadeInferiorA18 = 0;
     char continuarOuParar;
     int limite;
+    float maiorAltura = 0.0;
 
     printf("-----------------------------\n");
     printf("ALGORITMO PARA CALCULAR ESTATISTICAS\n");
@@ -35,6 +36,9 @@ int main() {
     }
     printf("ALTURA: ");
     scanf("%f", &altura);
+    if (altura > altura) {
+        maiorAltura = altura;
+    }
     printf("PESO: ");
     scanf("%f", &peso);
     if (peso > 80) {
@@ -55,19 +59,20 @@ int main() {
     } else {
         printf("NENHUM JOGADOR COM IDADE INFERIOR A 18 ANOS\n");
     }
+    printf("A MAIOR ALTURA E %0.2f M\n", maiorAltura);
     mediaDasIdades = (float) somaDasIdades / limite;
-    printf("MEDIA DAS IDADES: %0.2f\n", mediaDasIdades);
+    printf("MEDIA DAS IDADES: %0.2f ANOS\n", mediaDasIdades);
     mediaDasAlturas = somaDasAlturas / limite;
-    printf("MEDIA DAS ALTURAS: %0.2f\n", mediaDasAlturas);
+    printf("MEDIA DAS ALTURAS: %0.2f METROS\n", mediaDasAlturas);
     mediaDosPesos = somaDosPesos / limite;
-    printf("MEDIA DOS PESOS: %0.2f\n", mediaDosPesos);
+    printf("MEDIA DOS PESOS: %0.2f KG\n", mediaDosPesos);
     porcentagemJogadoresPesoAcima80kg = ((float)pesoAcimaDe80kg / limite) * 100;
     if (pesoAcimaDe80kg == 1) {
-        printf("%d JOGADOR ACIMA DE 80 KG\n", pesoAcimaDe80kg);
+    printf("%d JOGADOR ACIMA DE 80 KG\n", pesoAcimaDe80kg);
     } else if (pesoAcimaDe80kg > 1) {
-        printf("%d JOGADORES ACIMA DE 80 KG\n", pesoAcimaDe80kg);    
+    printf("%d JOGADORES ACIMA DE 80 KG\n", pesoAcimaDe80kg);    
     } else {
-        printf("NENHUM JOGADOR ACIMA DE 80 KG\n");
+    printf("NENHUM JOGADOR ACIMA DE 80 KG\n");
     }
     printf("\n");
     printf("DESEJA CONTINUAR PARA CALCULAR AS INFORMACOES DE OUTROS JOGADORES?\n");
