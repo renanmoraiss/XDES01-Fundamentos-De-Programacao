@@ -14,7 +14,7 @@ int main() {
     printf("QUANTOS JOGADORES ESTAO NO TIME: ");
     scanf("%d", &totalDeJogadores);
 
-    for (repeticoesEstatisticas = 1; repeticoesEstatisticas <= limite; repeticoesEstatisticas += 1) {
+    for (repeticoesEstatisticas = 1; repeticoesEstatisticas <= totalDeJogadores; repeticoesEstatisticas += 1) {
     printf("INFORMACOES DO JOGADOR NUMERO %d\n", repeticoesEstatisticas);
     printf("IDADE: ");
     scanf("%d", &idade);
@@ -50,13 +50,13 @@ int main() {
     }
     printf("MAIOR ALTURA: %0.2f METRO\n", maiorAltura);
     printf("MENOR ALTURA: %0.2f METRO\n", menorAltura);
-    mediaDasIdades = (float) somaDasIdades / limite;
+    mediaDasIdades = (float) somaDasIdades / totalDeJogadores;
     printf("MEDIA DAS IDADES: %0.2f ANOS\n", mediaDasIdades);
-    mediaDasAlturas = somaDasAlturas / limite;
+    mediaDasAlturas = somaDasAlturas / totalDeJogadores;
     printf("MEDIA DAS ALTURAS: %0.2f METROS\n", mediaDasAlturas);
-    mediaDosPesos = somaDosPesos / limite;
+    mediaDosPesos = somaDosPesos / totalDeJogadores;
     printf("MEDIA DOS PESOS: %0.2f KG\n", mediaDosPesos);
-    porcentagemJogadoresPesoAcima80kg = ((float)pesoAcimaDe80kg / limite) * 100;
+    porcentagemJogadoresPesoAcima80kg = ((float)pesoAcimaDe80kg / totalDeJogadores) * 100;
     if (pesoAcimaDe80kg == 1) {
     printf("%d JOGADOR ACIMA DE 80 KG\n", pesoAcimaDe80kg);
     } else if (pesoAcimaDe80kg > 1) {
