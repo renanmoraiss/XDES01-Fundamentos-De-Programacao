@@ -31,6 +31,13 @@ int main() {
         printf("Programa encerrado.\n");
         return 0;
     }
+    else if ((continuarOuParar == 'A') || (continuarOuParar == 'a')) {
+        printf("Prosseguindo.\n");
+        continue;
+    } else {
+        printf("Caractere invalido - programa encerrado.\n");
+        return 1;
+    }
 }
 return 0;
 }
