@@ -7,22 +7,21 @@ char sexo;
 float somaSalario = 0, salario, mediaSalarial;
 //
 do {
-    printf("\n");
-    printf("Idade: ");
     scanf("%d", &idade);
     //
     if (idade > maiorIdd) {
         maiorIdd = idade;
     }
     //
-    if (idade < menorIdd) {
+    if (idade < menorIdd && idade > 0) {
         menorIdd = idade;
     }
+    if (idade < 0) {
+        break;
+    }
     //
-    printf("Sexo: ");
     scanf(" %c", &sexo);
     //
-    printf("Salario: ");
     scanf("%f", &salario);
     //
     if (salario > 0) {
@@ -37,10 +36,10 @@ do {
 } while(idade >= 0);
 //
 mediaSalarial = somaSalario / totalDeSalarios;
-printf("Media Salarial: %0.2f\n", mediaSalarial);
-printf("Maior Idade: %d\n", maiorIdd);
-printf("Menor Idade: %d\n", menorIdd);
-printf("Quantidade de mulheres com salario ate R$100,00: %d\n", mulheresSalarioAte100);
+printf("media salarial: %0.2f\n", mediaSalarial);
+printf("maior idade: %d\n", maiorIdd);
+printf("menor idade: %d\n", menorIdd);
+printf("mulheres com salario ate 100: %d\n", mulheresSalarioAte100);
 //
 return 0;
 }
