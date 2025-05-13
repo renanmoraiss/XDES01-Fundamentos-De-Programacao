@@ -1,0 +1,47 @@
+MODULARIZAÇÃO -> processo de dividir um programa em partes menores, chamadas módulos (que são independentes, reutilizáveis e 
+responsáveis por tarefas específicas).
+
+MODULARIZAÇÃO visa facilitar o desenvolvimento, a manutenção, a legibilidade e a escalabilidade do sistema como um todo, 
+permitindo que diferentes partes sejam desenvolvidas, testadas e compreendidas separadamente. 
+
+MODULARIZAÇÃO envolve a Decomposição e o Reconhecimento de Padrões.
+
+Dependendo do paradigma e da linguagem utilizada, a MODULARIZAÇÃO ganha nome e forma diferente.
+Por exemplo, na linguagem C chamados de Funções.
+---------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------
+Funções:
+- Uma função é um bloco de comandos que recebe um nome e pode ser chamada de qualquer parte do programa, 
+quantas vezes forem necessárias, durante a sua execução.
+- Já utilizamos diversas funções no programa, como printf e scanf (<stdio.h>); sqrt e pow (<math.h>).
+
+Toda função em C tem a seguinte forma:
+-> tipoSaida nomeDaFuncao(tipoParâmetro nomeParâmetro) {
+    bloco de comandos...
+}
+
+-> Os parâmetros de uma função são o que o programador utiliza para passar a informação de um trecho 
+de código para dentro da função.
+
+Exemplos:
+-> Função para calcular a média entre dois números inteiros:
+
+float calcularMedia(int n1, int n2) {
+    float media;
+    media = (n1 + n2) / 2;
+    return media; //O return vai enviar o valor calculado para a função que a chamou.
+}
+
+-> Para a função main reconhecer outra função, é preciso que ela esteja antes da main ou que 
+seu protótipo seja declarado antes da main.
+
+->O protótipo de uma função é uma declaração da função que omite o bloco de comandos, mas especifica 
+o seu tipo de retorno, o seu nome e seus parâmetros de entrada.
+
+-> Nem toda função precisa ter parâmetro de entrada;
+-> Nem toda função precisa retornar algo; (função void) -> void é o tipo de dado que corresponde a vazio / nada.
+
+exemplo: 
+void imprimeBomDia() { -> não recebe parâmetro de entrada e nem retorna algo.
+    printf("Bom Dia");
+}

@@ -1,0 +1,41 @@
+Passagem de Parâmetro:
+-> Existem dois tipos de passagem de parâmetro:
+- PASSAGEM POR VALOR; -> o valor da variável em uma função é atribuído (copiado) para outra variável em outra função.
+- PASSAGEM POR REFERÊNCIA;
+
+Na passagem de parâmetros por VALOR, as funções não podem modificar o valor original de 
+uma variável passada para a função.
+
+Quando se quer que o valor da variável mude dentro da função e essa mudança 
+se reflita fora da função, usam-se passagem de parâmetros por REFERÊNCIA.
+
+Na passagem de parâmetros por REFERÊNCIA, não se passa o valor da variável, 
+mas sim o endereço de memória da variável.
+
+-> Em C, usa-se o conceito de PONTEIROS para a passagem de parâmetros por REFERÊNCIA.
+---------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------
+Ponteiros:
+-> Um ponteiro é uma variável que contém um endereço de memória.
+
+-> Declaração de um ponteiro: tipo *nome.
+
+-> %p é o formato usado no printf para imprimir ponteiros (endereços).
+
+Existem dois operadores especiais para ponteiros:
+-> & (e comercial) -> operador que devolve o endereço de memória do seu operando.
+-> * (asterisco) -> operador que devolve o valor armazenado na variável.
+
+Inicialização de Ponteiros:
+-> Uma variável tipo ponteiro sempre deverá ser inicializada 
+com um endereço de memória ou NULL.
+---------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------
+Ponteiros para Funções:
+-> Na passagem de parâmetros por REFERÊNCIA, o que é enviado para a função é o 
+endereço de memória onde a variável está armazenada, e não uma simples cópia de seu valor (como é feito na passagem de parâmetros por VALOR).
+
+-> Assim, usando o endereço de memória da variável, qualquer alteração que a variável 
+sofra dentro da função será refletida fora da função.
+
+-> Para passar para a função um parâmetro por REFERÊNCIA, a função precisa usar PONTEIROS.
