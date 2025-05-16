@@ -9,7 +9,6 @@ int main() {
     int vetor[tamanho];
 
     preencheVetor(vetor, tamanho);
-    imprimeVetor(vetor, tamanho);
     encontraIguais(vetor, tamanho);
 
     return 0;
@@ -21,13 +20,6 @@ void preencheVetor(int vetor[], int tamanho) {
         scanf("%d", &vetor[i]);
         }
     }
-
-void imprimeVetor(int vetor[], int tamanho) {
-    for (int i = 0; i < tamanho; i++) {
-        printf("Valor da posicao %d: %d\n", i, vetor[i]);
-        }
-    }
-
 
 void encontraIguais(int vetor[], int tamanho) {
     for (int i = 0; i < tamanho; i++) {
@@ -45,7 +37,7 @@ void encontraIguais(int vetor[], int tamanho) {
         for (int v = i + 1; v < tamanho; v++) {
             if (vetor[v] == vetor[i]) {
                 if(vezesQueRepetiu == 0) {
-                printf("%d\t", vetor[i]);
+                printf("%d\n", vetor[i]);
                 break;
                 }
             }
