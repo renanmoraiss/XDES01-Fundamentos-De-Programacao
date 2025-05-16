@@ -34,7 +34,7 @@ void encontraIguais(int vetor[], int tamanho) {
         int vezesQueRepetiu = 0;
         //
         for (int r = 0; r < i; r++) {
-            if (vet[r] == vet[i]) {
+            if (vetor[r] == vetor[i]) {
                 vezesQueRepetiu = 1;
                 break;
             }
@@ -43,9 +43,9 @@ void encontraIguais(int vetor[], int tamanho) {
         //
 
         for (int v = i + 1; v < tamanho; v++) {
-            if (vet[v] == vet [i]) {
+            if (vetor[v] == vetor[i]) {
                 if(vezesQueRepetiu == 0) {
-                printf("%d\t", vet[i]);
+                printf("%d\t", vetor[i]);
                 break;
                 }
             }
