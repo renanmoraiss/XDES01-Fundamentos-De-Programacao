@@ -1,0 +1,10 @@
+Vetor é uma variável composta homogenea unidimensional.
+Ou seja, se trata de um conjunto de variáveis de um mesmo tipo (ex: int, float, double, etc...) e são
+alocadas sequencialmente na memória.
+As variáveis dentro de um mesmo vetor tem o mesmo nome, o que as diferencia é o índice de cada uma, ou seja, 
+a posição que elas ocupam dentro da estrutura.
+Declaração de vetor: tipoDeDado nomeDoVetor[total de posições do vetor] ->
+float notas[10].
+-> a memória vai criar posição do 0 ao 9 (tam do vetor - 1), totalizando 10, que é o numero dentro do [] na declaração do vetor.
+-> em cada posição poderão ser armazenados números do tipo float.
+-> IMPORTANTE: sempre a primeira posição de um vetor em C tem índice 0.
