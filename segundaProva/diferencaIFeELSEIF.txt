@@ -1,0 +1,2 @@
+Ao utilizar vários if, mesmo que o primeiro if seja verdadeiro, o programa ainda testará todos. (situação mutuamente exclusiva)
+Ao utilizar else if, o programa não testa mais nenhum quando encontrar o verdadeiro.

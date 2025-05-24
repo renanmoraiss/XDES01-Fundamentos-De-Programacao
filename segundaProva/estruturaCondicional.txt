@@ -1,0 +1,23 @@
+Operados Relacionais:
+> (maior)
+>= (maior igual)
+< (menor)
+<= (menor igual)
+== (maior)
+!= (diferente)
+
+Temos if & else.
+if (x >= 0) {
+    comandos...
+} else { -> else não tem condição
+    comandos...
+}
+
+Operadores Lógicos:
+e (&&) -> todas as condições devem ser verdadeiras para executar um bloco de comandos.
+ou (||) -> no mínimo uma condição deve ser verdadeira para executar um bloco de comandos.
+if ((x >= 0) && (x <= 10)) {
+    comandos...
+} else {
+    comandos...
+}

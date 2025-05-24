@@ -1,0 +1,3 @@
+Representa o conjunto de regras para solucionar um problema.
+Sequencia finita de passos bem definidios para solucionar um problema.
+Exemplo clássico: Receita de bolo.

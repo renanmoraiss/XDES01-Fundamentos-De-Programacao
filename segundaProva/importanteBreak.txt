@@ -1,0 +1,11 @@
+break é utilizado em algumas estruturas:
+1 - loop (estrutura de repetição):
+- for
+- while
+- do... while
+
+2 - switch
+para evitar que os cases "caiam" uns nos outros.
+
+NÃO É UTILIZADO DIRETAMENTE EM IF, ELSE E ELSE IF.
+MAS SE O IF, ELSE OU ELSE IF ESTIVER DENTRO DE UM LOOP OU SWITCH, AÍ SIM PODE USAR.

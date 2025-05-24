@@ -1,0 +1,28 @@
+switch-case:
+um comando mais seletivo, utilizado em situações mutuamente exclusivas.
+Ilustração:
+valor -> case 1 = instrucao 1
+      -> case 2 = instrucao 2
+      -> case 3 = instrucao 3
+      -> case 4 = instrucao 4
+      ...
+
+Além de if e else, C possui um comando de seleção múltipla chamado switch.
+Comando de seleção múltipla que testa sucessivamente o valor de uma expressão diante
+de uma lista de constantes inteiras ou de caractere. Quando o valor coincide, a instrução 
+associada aquela constante é executada.
+
+switch (variavel) {
+    case valor1:
+    comandos...;
+    break;
+
+    case valor2:
+    comandos...;
+    break;
+    ...
+    default; -> é opcional. seu bloco de comandos é executado somente quando o valor da variável que está sendo testada pelo comando switch não for igual a nenhum dos valores dos comandos case.
+    comandos...;
+}
+
+switch é muito usado para criar menus.

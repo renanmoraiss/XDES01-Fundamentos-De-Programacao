@@ -1,0 +1,33 @@
+ifs Aninhados:
+Basicamento é um comando if que está dentro do bloco de comandos de outro if ou else mais externo.
+Em outras palavras, é um if dentro de outro.
+
+if (i) {
+    if (j) {
+        comandos...
+    } if (k) {
+        comandos...
+    } else {
+        comandos...
+    }
+} else {
+    comandos...
+}
+
+Todo else está associado ao if mais próximo, que está dentro do memso bloco de comandos.
+Else não tem teste. O else é executado quando o teste feito no if é falso. Não existe aninhamento de else.
+
+Escada if-else-if:
+if () {
+    comandos...
+} else {
+    if () {
+        comandos...
+    } else {
+        if () {
+            comandos...
+        } else {
+            comandos...
+        }
+    }
+}
