@@ -1,0 +1,14 @@
+Modularização:
+-> Processo de dividir um programa em partes menores, chamadas módulos, que são:
+- independentes;
+- reutilizáveis;
+- responsáveis por tarefas específicas;
+
+A modularização visa facilitar:
+- desenvolvimento;
+- manutenção;
+- legibilidade;
+- escalabilidade do sistema;
+Pois permite que diferentes partes sejam desenvolvidas e testadas separadamente.
+
+Em C, a Modularização ganha o nome "Funçao".

@@ -1,0 +1,19 @@
+Sequencia de comandos que recebe um nome e pode ser chamada em qualquer parte do programa,
+quantas vezes forem necessárias, durante a sua execução.
+
+Toda função em C tem a seguinte forma:
+tipoSaída nomeDaFunção(tipoParametro nomeParametroEntrada) {
+    sequencia de comandos...
+}
+
+-> Os parametros de uma função são o que o programador utiliza para passar a 
+informação de um trecho de código para dentro da função.
+
+IMPORTANTE:
+-> nem toda função precisa ter parametro de entrada; -> void é o tipo de dado que corresponde a vazio / nada
+-> nem toda função precisa retornar algo;
+exemplo:
+void imprimeOla() { 
+    printf("Olá, Mundo");
+}
+A função acima não tem parametro de entrada e não tem return.
