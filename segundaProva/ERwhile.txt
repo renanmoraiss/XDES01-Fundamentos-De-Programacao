@@ -1,0 +1,15 @@
+Usado quando não sabemos o número de repetições a serem executadas.
+Para a entrada na estrutura, uma condição lógica é proposta.
+Uma vez na estrutura, o bloco de comandos é executado até que a 
+condição lógica seja falsa.
+
+Coisas Importantes do WHILE:
+-> para entrar no loop, uma variável que controla esse loop sempre deve ser iniciada;
+-> a variável que controla o loop sempre deve ser atualizada dentro do loop;
+-> a condição será testada em todas as execuções do loop. quando a condição se tornar falsa, o loop para de executar;
+
+Sintaxe:
+
+while (condição) {
+    bloco de comandos...
+}

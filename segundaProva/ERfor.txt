@@ -1,0 +1,12 @@
+Quando já sabemos quantas vezes o loop será repetido, podemos usar
+o for, que facilita a implementação:
+-> declarar a variável de controle;
+-> inicializar a variável de controle;
+-> testar a condição;
+-> transformação da variável de controle;
+
+Sintaxe:
+
+for (inicialização; condição; transformação) {
+    bloco de comandos...
+}

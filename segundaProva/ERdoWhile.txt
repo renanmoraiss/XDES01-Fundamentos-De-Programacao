@@ -1,0 +1,12 @@
+Estrutura bastante parecida com o while.
+-> A diferença é que o bloco de comandos é executado antes de testar a condição.
+Ou seja, no do while, sempre a estrutura executará, no mínimo, uma vez o bloco de comandos.
+
+Coisas Importantes do DO WHILE:
+-> O que está dentro do loop sempre será executado pelo menos uma vez.
+
+Sintaxe:
+
+do {
+    bloco de comandos...
+} while (condição);
