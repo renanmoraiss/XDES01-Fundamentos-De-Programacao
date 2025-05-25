@@ -18,6 +18,8 @@ int main() {
         maiorIdd = idade;
     } if (idade > 0 && idade < menorIdd) {
         menorIdd = idade;
+    } if (idade < 0) {
+        break;
     }
     //
     printf("Sexo: ");
