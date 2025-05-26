@@ -1,0 +1,7 @@
+Qual a maneira correta de declarar um ponteiro para int?
+
+a. *pti -> errado
+b. int *pti -> correto
+c. int_pti pti -> errado
+d. *int pti - errado
+e. &i -> errado

@@ -1,0 +1,9 @@
+int *pti; -> declarou um ponteiro para int. (*pti)
+int i = 10; -> inicializou i = 10.
+pti = &i; -> inicializou pti apontando para o endereço de memória da variável i.
+
+a. ao se executar *pti = 20; i passará a ter o valor 20? Sim, pois se *pti para i e *pti = 20, então i passará a ter o valor 20.
+b. pti é igual a 10? Não, pti armazena um endereço, e não um valor (aponta para i).
+c. pti armazena o endereço de i? Sim, pois pti = &i.
+d. ao se alterar o valor de i, *pti será modificado? Sim, pois *pti aponta para i, logo quando i muda, *pti tbm é alterado.
+e. *pti é igual a 10? i = 10 e pti aponta para i, logo *pti == 10.
