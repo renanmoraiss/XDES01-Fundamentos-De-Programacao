@@ -1,0 +1,26 @@
+Com um vetor, posso armazenar diversos valores em uma única variável.
+Vetor também é conhecido como variável composta homogenea unidimensional.
+Tem um identificador, mas é possível armazenar diversos valores nessa variável, e não apenas um
+como na variável simples.
+Homogenea refere-se ao fato de ser um único tipo de dado (int, float, char...).
+Unidimensional é porque é uma estrutura 1D.
+
+-> Vetor é uma variável que ocupa diversas posições na memória.
+
+-> Exemplo de um vetor de 7 posições:
+Valor x x x x x x x 
+Pos.  0 1 2 3 4 5 6
+-> O vetor começa da posição 0 em C
+-> Todas as posições do vetor são alocadas na memória de forma SEQUENCIAL.
+-----------------------------------------------------------------
+-> Por enquanto, utilizar apenas Alocação Estática:
+- para alocar um vetor estaticamente, utiliza-se a seguinte sintaxe:
+tipoDeDado nomeDoVetor[tamanhoDoVetor];
+
+-> Acesso aos elementos do Vetor:
+- como o vetor aloca diversas variáveis, sua manipulação é feita utilizando o loop FOR.
+
+-> A inicialização do vetor tbm pode ser feita com a seguinte sintaxe:
+int vet[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}; -> aloca e inicializa o vetor vet com 10 posições.
+Valor 1 2 3 4 5 6 7 8 9 10
+Pos.  0 1 2 3 4 5 6 7 8 9
