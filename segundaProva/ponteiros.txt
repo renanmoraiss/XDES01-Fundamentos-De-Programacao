@@ -1,0 +1,15 @@
+Um ponteiro é uma variável que contém um endereço de memória.
+
+Declaração de ponteiro: tipo *nome; (* para indicar que é ponteiro).
+
+Operadores de Ponteiros:
+-> Existem 2 operadores especiais para ponteiros:
+- & (e comercial) -> devolve o endereço de memória do seu operando.
+- * (asterisco) -> devolve o valor armazendo na variável.
+
+INICIALIZAÇÃO DE PONTEIROS:
+-> uma variável tipo ponteiro sempre deverá ser inicializada com um endereço ou NULL.
+exemplo: 
+declaração: float *a, b;
+inicialização: a = &b; -> ponteiro a aponte para o endereço da variável b
+                       -> qualquer modificação feita em b também afetará a variável a.
