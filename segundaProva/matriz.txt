@@ -1,0 +1,13 @@
+Matriz é uma variável composta homogenea bidimensional.
+-> Bidimensional: linhas e colunas.
+-> Os índices das linhas e colunas começam em 0.
+-> Assim como o vetor, a matriz ocupa posições contínuas na memória.
+-> O armazenamento é em forma contígua em linha (ordem row-major):
+- primeiro vem todos os elementos da linha 0
+- depois os da linha 1... e assim por diante
+-> Quando se passa uma matriz para função, o compilador precisa saber
+o número de colunas (mas n necessariamente o número de linhas).
+
+-> Alocação Estática de Matriz:
+- sintaxe:
+tipoDeDado nomeDaMatriz[qtdLinhas][qtdColunas];
