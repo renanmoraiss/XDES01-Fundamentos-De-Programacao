@@ -1,0 +1,67 @@
+Variáveis com caracteres são declaradas com o tipo "char" e sua leitura ocorre como qualquer outro tipo de dado (%c).
+
+-> E se eu quisesse armazenar uma palavra ou uma frase em C?
+- C não tem tipo nativo para palavras ou frases.
+- O armazenamento desse tipo de dado em C é feito com uma cadeia de caracteres (vetor de caracteres).
+
+-> String é o nome que se usa para definir uma sequencia de caracteres.
+-> Essa sequencia de caracteres, que pode ser uma palavra ou frase, é armazenada na memória na forma de um array(vetor) do tipo char.
+
+-> Tipo Nativo:
+- caracter
+- %c 
+- ocupa 1byte na memória
+
+-> String:
+- vetor de caracteres
+- %s
+- ocupa o tamanho do vetor bytes
+
+---------------------------------------------------
+
+EXEMPLO:
+Considere abaixo um vetor de caractere de 7 posições, guardando a palavra MARIA.
+
+Caractere: M  A  R  I  A  \0
+Posição:   0  1  2  3  4  5  6
+
+-> Em C, uma string é um vetor de caracteres terminado com um caractere nulo que pode ser escrito usando a convenção da barra invertida como sendo '\0'.
+
+-> Nesse caso, a string pode ter até 6 caracteres.
+
+-> Mas pode ter menos - o compilador entende que a string armazenada termina no \0.
+
+---------------------------------------------------
+
+-> DECLARAÇÃO:
+char palavra[30];
+-> Cria uma string que pode armazenar até 29 caracteres.
+
+-> LEITURA:
+scanf("%s", palavra);
+-> usa a formatação %s para indicar que é uma string.
+-> por ser um vetor, não usa o & antes do nome da variável. (ISSO APENAS QUANDO É VETOR CHAR, MAS VETOR INT, FLOAT OU DOUBLE USA O & NORMAL)
+
+-> ESCRITA: 
+printf("%s", palavra);
+-> o vetor de string é tratado como uma coisa só. Nesse caso, o compilador irá escrever na tela tudo que aparece no vetor antes do \0.
+
+---------------------------------------------------
+
+-> Para ler frases, o scanf não é a melhor opção.
+
+-> Existe uma outra função chamada gets.
+- gets vem de get string;
+- gets le uma linha inteira e não apenas uma palavra;
+- ou seja, gets faz a leitura do teclado considerando todos os caracteres digitados (incluindo espaços) até encontrar uma tecla enter;
+
+ex:
+char frase[30];
+printf("Digite uma frase de ate 30 caracteres: ");
+gets(frase);
+printf("Frase digitada: %s\n", frase);
+
+PARA LER UMA LINHA COMPLETA COM ESPAÇOS COM SCANF:
+scanf("%[^\n]", frase);
+
+---------------------------------------------------
