@@ -1,0 +1,37 @@
+BIBLIOTECA string.h
+
+-> Funções para a manipulação de strings na biblioteca <string.h> :
+- strlen -> retorna o tamanho (em caracteres) da palavra passada como argumento.
+- strcpy -> copia o conteúdo da segunda string para a primeira.
+- strcat -> concatena o texto da segunda string na primera.
+- strcmp -> compara duas strings. 
+- stricmp -> compara duas strings sem diferenciar maiúsculas de minúsculas.
+- atoi -> converte uma string para o inteiro correspondente.
+- atof -> converte uma string para o número real correspondente.
+
+----------------------------------------------------------------------------------------
+
+1. strlen() 
+-> sua forma é: strlen(string);
+- a função strlen() retorna o comprimento da string fornecida.
+- o terminador nulo não é contado. Isto quer dizer que, de fato, o comprimento do vetor
+da string deve ser um a mais que o inteiro retornado por strlen().
+
+2. strcpy()
+-> sua forma é: strcpy(stringDestino, stringOrigem);
+- a função strcpy() copia integralmente a stringOrigem para a stringDestino.
+- obrigatoriamente as duas strings devem possuir o MESMO TAMANHO senão erros podem acontecer.
+
+3. strcat()
+-> sua forma é: strcat(stringDestino, stringOrigem);
+- a função strcat() concatena (junta) a stringOrigem com a StringDestino.
+- a stringOrigem permanecerá inalterada.
+- é importante observar que a stringDestino deverá ser definida com o tamanho capaz 
+de receber as duas strings, caso contrário erros poderão ocorrer.
+
+4.strcmp()
+-> sua forma é: strcmp(string1, string2);
+- a função strcmp() compara o tamanho da string1 com a string2.
+- se as duas forem iguais, a função retorna zero.
+
+----------------------------------------------------------------------------------------
