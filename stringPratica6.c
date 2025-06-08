@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 
 void mensagem();
 void leMensagem(char frase[]);

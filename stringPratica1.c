@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 
 void preencheString(char palavra[]);
 void preencheCaractere(char *caractereEscolhido);
@@ -35,5 +34,5 @@ void testarCaractere(char palavra[], char caractereEscolhido) {
             contador ++;
         }
     }
-    printf("%c aparece %d vezes na palavra '%s'", caractereEscolhido, contador, palavra);
+    printf("'%c' aparece %d vezes na palavra '%s'", caractereEscolhido, contador, palavra);
 }

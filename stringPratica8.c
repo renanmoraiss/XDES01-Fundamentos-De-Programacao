@@ -1,7 +1,6 @@
 //VERIFICA APENAS SE PALAVRAS SAO PALINDROMAS, AINDA NAO IGNORA OS ESPACOS!!
 
 #include <stdio.h>
-#include <string.h>
 
 void mensagem();
 void leMensagem(char frase[]);
