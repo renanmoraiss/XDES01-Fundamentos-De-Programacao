@@ -4,10 +4,12 @@
 void mensagem();
 void leMensagem(char frase[]);
 void tamanhoMensagem(char frase[], int *tam);
-void verificarPalindromo(char frase[], int *tam);
+void copiarMensagem(char frase[], char copia[], int *tam);
+void verificarPalindromo(char frase[], char copia[], int *tam);
 
 int main() {
-    char string[30];
+    char string[100];
+    char string2[100];
     int tamanho;
     //
     mensagem();
@@ -16,7 +18,9 @@ int main() {
     //
     tamanhoMensagem(string, &tamanho);
     //
-    verificarPalindromo(string, &tamanho);
+    copiarMensagem(string, string2, &tamanho);
+    //
+    verificarPalindromo(string, string2, &tamanho);
     //
     return 0;
 }
@@ -36,9 +40,24 @@ void tamanhoMensagem(char frase[], int *tam) {
         (*tam)++;
         i++;
     }
-    printf("%d caracteres\n", *tam);
+    printf("'%s' possui %d caracteres\n", frase, *tam);
 }
 
-void verificarPalindromo(char frase[], int *tam) {
-    //VER A AULA 17 PARA FAZER ISSO COM FUNÇÃO DA BIBLIOTECA <string.h>
+void copiarMensagem(char frase[], char copia[], int *tam) {
+    for (int i = 0; i < *tam; i++) {
+        copia[i] = frase[i];
+    }
+}
+
+void verificarPalindromo(char frase[], char copia[], int *tam) {
+    int cont = 0;
+    for (int i = 0; i < *tam; i++) {
+        if (frase[i] == copia[i]) {
+            cont++;
+        }
+    } if (cont == *tam) {
+        printf("A mensagem '%s' e um palindromo\n", frase);
+    } else {
+        printf("'%s' nao e um palindromo\n", frase);
+    }
 }
