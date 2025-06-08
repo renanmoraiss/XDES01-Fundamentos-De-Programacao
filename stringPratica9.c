@@ -144,10 +144,11 @@ void leC2(char *c2) {
 }
 
 void substituirCaractere(char stringS1[], int *tamanho, char *c1, char *c2) {
-    for (int i = 0; i < *tamanho; i++) {
+    int contador = 0;
+    for (int i = 0; i < *tamanho && contador != 1; i++) { //uso de FLAG ao inves de BREAK no FOR!
         if (*c1 == stringS1[i]) {
+            contador++;
             stringS1[i] = *c2;
-            break;
         }
     }
 }
