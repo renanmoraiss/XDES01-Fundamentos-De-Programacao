@@ -44,9 +44,16 @@ void tamanhoMensagem(char frase[], int *tam) {
 }
 
 void copiarMensagem(char frase[], char copia[], int *tam) {
-    for (int i = 0; i < *tam; i++) {
-        copia[i] = frase[i];
+    int i = 0;
+    int j = *tam - 1;
+    //
+    while (i < *tam) {
+        copia[i] = frase[j];
+        i++;
+        j--;
     }
+    copia[*tam] = '\0';
+    printf("%s\n", copia);
 }
 
 void verificarPalindromo(char frase[], char copia[], int *tam) {
