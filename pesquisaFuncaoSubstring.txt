@@ -1,0 +1,5 @@
+Função para verificar se uma string é substring de outra:
+-> strstr
+- sua forma é: strstr(string1, string2); 
+-> string1 é onde vamos verificar se a string2 é sua substring, ou seja,
+string1 é a 'principal' e string2 a 'substring'.
