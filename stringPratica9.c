@@ -10,6 +10,9 @@ void concatenarString(char stringS1[], char stringS2[]);
 void imprimirS1reversa(char stringS1[], int *tamanho);
 void informarCaractere(char *caracterE);
 void contarCaractere(char stringS1[], int *tamanho, char *caracterE, int *caracterR);
+void leC1(char *c1);
+void leC2(char *c2);
+void substituirCaractere(char stringS1[], int *tamanho, char *c1, char *c2);
 void verificarSubstring(char stringS1[], char stringS2[], char *substring);
 
 int main() {
@@ -20,6 +23,8 @@ int main() {
     char caracterEscolhido;
     int caracterRepete;
     char subS;
+    char C1;
+    char C2;
     //
     mensagemS1();
     leS1(s1);
@@ -30,7 +35,7 @@ int main() {
     printf("c) Concatenar S1 com S2\n");
     printf("d) Imprimir S1 de forma reversa\n");
     printf("e) Contar a ocorrencia de um dado caractere na S1\n");
-    printf("f)\n");
+    printf("f) Substituir a primeira ocorrencia do caractere C1 da string S1 pelo caractere C2\n");
     printf("g) Verificar se S2 eh substring de S1\n");
     escolherOpcaoMenu(&opcao);
     while (opcao > 0) {
@@ -61,6 +66,10 @@ int main() {
         break;
         //
         case 6:
+        leC1(&C1);
+        leC2(&C2);
+        substituirCaractere(s1, &tam, &C1, &C2);
+        printf("'%s'\n", s1);
         break;
         //
         case 7:
@@ -122,6 +131,25 @@ void contarCaractere(char stringS1[], int *tamanho, char *caracterE, int *caract
     for (int i = 0; i < *tamanho; i++) {
         if (stringS1[i] == *caracterE) {
             (*caracterR)++;
+        }
+    }
+}
+
+void leC1(char *c1) {
+    printf("Digite o caractere C1\n");
+    scanf(" %c", c1);
+}
+
+void leC2(char *c2) {
+    printf("Digite o caractere C2\n");
+    scanf(" %c", c2);
+}
+
+void substituirCaractere(char stringS1[], int *tamanho, char *c1, char *c2) {
+    for (int i = 0; i < *tamanho; i++) {
+        if (*c1 == stringS1[i]) {
+            stringS1[i] = *c2;
+            break;
         }
     }
 }
