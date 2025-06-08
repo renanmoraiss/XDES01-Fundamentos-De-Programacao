@@ -3,7 +3,7 @@
 
 void mensagemS1();
 void leS1(char stringS1[]);
-void escolherOpcaoMenu(int *opc);
+void escolherOpcaoMenu(char *opc);
 void tamanhoS1(char stringS1[], int *tamanho);
 void leS2(char stringS2[]);
 void concatenarString(char stringS1[], char stringS2[]);
@@ -13,16 +13,15 @@ void contarCaractere(char stringS1[], int *tamanho, char *caracterE, int *caract
 void leC1(char *c1);
 void leC2(char *c2);
 void substituirCaractere(char stringS1[], int *tamanho, char *c1, char *c2);
-void verificarSubstring(char stringS1[], char stringS2[], char *substring);
+void verificarSubstring(char stringS1[], char stringS2[]);
 
 int main() {
     char s1[20];
     char s2[20];
     int tam;
-    int opcao;
+    char opcao;
     char caracterEscolhido;
     int caracterRepete;
-    char subS;
     char C1;
     char C2;
     //
@@ -38,49 +37,48 @@ int main() {
     printf("f) Substituir a primeira ocorrencia do caractere C1 da string S1 pelo caractere C2\n");
     printf("g) Verificar se S2 eh substring de S1\n");
     escolherOpcaoMenu(&opcao);
-    while (opcao > 0) {
+    while (opcao != 'h') { //coloquei 'h' so pra não bater com nenhum caractere do menu!
         switch (opcao) {
-        case 1:
+        case 'a':
         leS1(s1);
         break;
         //
-        case 2: 
+        case 'b': 
         tamanhoS1(s1, &tam);
         printf("Tamanho da string S1: %d\n", tam);
         break;
         //
-        case 3:
+        case 'c':
         leS2(s2);
         concatenarString(s1, s2);
         printf("String concatenada: %s\n", s1);
         break;
         //
-        case 4:
+        case 'd':
         imprimirS1reversa(s1, &tam);
         break;
         //
-        case 5:
+        case 'e':
         informarCaractere(&caracterEscolhido);
         contarCaractere(s1, &tam, &caracterEscolhido, &caracterRepete);
         printf("'%c' aparece %d vezes em '%s'\n", caracterEscolhido, caracterRepete, s1);
         break;
         //
-        case 6:
+        case 'f':
         leC1(&C1);
         leC2(&C2);
         substituirCaractere(s1, &tam, &C1, &C2);
         printf("'%s'\n", s1);
         break;
         //
-        case 7:
+        case 'g':
         leS2(s2);
-        verificarSubstring(s1, s2, &subS);
+        verificarSubstring(s1, s2);
         break;
         //
         default:
         printf("Opcao invalida\n");
         }
-
         escolherOpcaoMenu(&opcao);
     }
     //
@@ -96,9 +94,9 @@ void leS1(char stringS1[]) {
     getchar();
 }
 
-void escolherOpcaoMenu(int *opc) {
+void escolherOpcaoMenu(char *opc) {
     printf("Escolha uma opcao\n");
-    scanf("%d", opc);
+    scanf(" %c", opc);
 }
 
 void tamanhoS1(char stringS1[], int *tamanho) {
@@ -154,10 +152,8 @@ void substituirCaractere(char stringS1[], int *tamanho, char *c1, char *c2) {
     }
 }
 
-void verificarSubstring(char stringS1[], char stringS2[], char *substring) {
-    substring = strstr(stringS1, stringS2);
-    //
-    if (substring != NULL) {
+void verificarSubstring(char stringS1[], char stringS2[]) {
+    if (strstr(stringS1, stringS2) != NULL) {
         printf("'%s' eh substring de '%s'\n", stringS2, stringS1);
     } else {
         printf("'%s' nao eh substring de '%s'\n", stringS2, stringS1);
