@@ -18,12 +18,8 @@ void verificarSubstring(char stringS1[], char stringS2[]);
 int main() {
     char s1[20];
     char s2[20];
-    int tam;
-    char opcao;
-    char caracterEscolhido;
-    int caracterRepete;
-    char C1;
-    char C2;
+    int tam, caracterRepete;
+    char opcao, C1, C2, caracterEscolhido;
     //
     mensagemS1();
     leS1(s1);
