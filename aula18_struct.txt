@@ -1,0 +1,71 @@
+-> Uma estrutura que pode ser vista como um conjunto de variáveis sob o mesmo nome,
+e cada uma delas pode ter qualquer tipo (ou o mesmo tipo).
+-> A ideia básica por trás da estrutura é criar apenas um tipo de dado que contenha
+várias membros, que nada mais são do que outras variáveis.
+-> Em outras palavras, estamos criando uma variável que contém dentro de si outras variáveis.
+
+--------------------------------------------------------------------------------
+
+A forma geral de declaração de um novo tipo de dados por meio do struct é como se segue:
+     struct nome_struct {
+        tipo1 campo1;
+        tipo2 campo2;
+        tipo3 campo3;
+        ...
+        tipon campoN;
+     };
+
+-> Exemplo:
+     struct cadastro {
+        char nome[50];
+        int idade;
+        char rua[50];
+        int numero;
+     };
+
+     struct aluno {
+        char nome[50];
+        int matricula;
+        float nota1, nota2, nota3;
+     };
+
+-> Ao declarar uma variável do tipo que criou na struct, essa variável possui vários campos, chamados atributos.
+-> Exemplo:
+     struct cadastro {
+        char nome[50];
+        int idade;
+        char rua[50];
+        int numero;
+     }
+
+     cadastro
+     char nome[50];
+     int idade;
+     char rua[50];
+     int numero;
+
+--------------------------------------------------------------------------------
+
+Declaração de variável:
+     struct cadastro c;
+     - declarando a variável c que é do tipo cadastro;
+     - por ser um tipo definido pelo usuário, sempre que for usar precisa colocar a palavra struct na frente;
+
+--------------------------------------------------------------------------------
+
+Atribuição de valores:
+     - para atribuir valores é necessário acessar cada atributo da struct.
+     - para isso usamos a sintaxe: nomeDaStruct.nomeDoAtributo
+
+--------------------------------------------------------------------------------
+
+Acesso aos dados:
+     - o acesso aos dados da struct é feito como na atribuição de valores.
+     - nomeDaStruct.nomeDoAtributo
+
+--------------------------------------------------------------------------------
+
+Struct com typedef:
+     - para não ser necessário colocar a palavra reservada struct na frente do tipo
+     da variável, podemos utilizar o comando typedef.
+     - ele cria o nome de um tipo que possa ser utilizado em todo o programa.
