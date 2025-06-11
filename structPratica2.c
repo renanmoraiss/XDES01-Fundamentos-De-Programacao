@@ -11,6 +11,8 @@ struct infoAluno {
 
 typedef struct infoAluno dadosAluno;
 
+void imprimeDadosAluno(dadosAluno *aluno);
+
 int main() {
     dadosAluno aluno[3];
     int contCursoA = 0;
@@ -93,5 +95,13 @@ int main() {
     printf("Curso: %s\n", cursoAlunoMaisTempo);
     printf("-----------------------------\n");
     //
+    imprimeDadosAluno(aluno);
+    //
     return 0;
+}
+
+void imprimeDadosAluno(dadosAluno *aluno) {
+    for (int i = 0; i < 3; i++) {
+        printf("%s %d %s %d %d\n", aluno[i].nome, aluno[i].idade, aluno[i].curso, aluno[i].periodoAtual, aluno[i].anoDeIngresso);
+    }
 }
