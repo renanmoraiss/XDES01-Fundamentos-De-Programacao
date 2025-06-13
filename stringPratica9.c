@@ -35,6 +35,7 @@ int main() {
         case 2:
         leS2(s2);
         concatenarString(s1, s2);
+        tamanhoS1(s1, &tam);
         printf("%s\n", s1);
         break;
         //
@@ -51,6 +52,7 @@ int main() {
         case 5:
         leC1(&C1);
         leC2(&C2);
+        tamanhoS1(s1, &tam);
         substituirCaractere(s1, &tam, &C1, &C2);
         printf("%s\n", s1);
         break;
@@ -62,6 +64,7 @@ int main() {
         //
         case 7:
         leS1(s1);
+        tamanhoS1(s1, &tam);
         break;
         //
         case 8:
