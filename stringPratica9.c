@@ -98,8 +98,8 @@ void concatenarString(char stringS1[], char stringS2[]) {
 
 void imprimirS1reversa(char stringS1[], int *tamanho) {
     for (int i = *tamanho - 1; i >= 0; i--) {
-        printf("%c\n", stringS1[i]);
-    }
+        printf("%c", stringS1[i]);
+    } printf("\n");
 }
 
 void informarCaractere(char *caracterE) {
