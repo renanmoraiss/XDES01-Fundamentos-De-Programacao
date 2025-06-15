@@ -21,18 +21,19 @@ int main() {
     int totalAlunos;
     float dadosAlunos[100][6];
     //
-    totalAlunos = cadastrarAlunos(alunos);
+    //MAIN CONSTRUÍDA COM BASE NAS FUNÇÕES FORNECIDAS (RESPEITANDO A ASSINATURA) E O FLUXO DADO!
+    totalAlunos = cadastrarAlunos(alunos); // 1. Cadastrar Alunos
     //
     // CALCULAR A MEDIA FINAL DE CADA ALUNO E ARMAZENAR ESSE VALOR NA STRUCT
     for (int i = 0; i < totalAlunos; i++) {
-        alunos[i].media = calcularMedia(alunos[i]);
+        alunos[i].media = calcularMedia(alunos[i]); 
     }
     //
-    encontrarMelhorAluno(alunos, totalAlunos);
+    carregaMatriz(alunos, totalAlunos, dadosAlunos); //2. Carregar Matriz
+    encontrarMelhorAluno(alunos, totalAlunos); //3. Encontrar Melhor Aluno
     //
-    carregaMatriz(alunos, totalAlunos, dadosAlunos);
     //
-    relatorio(alunos, totalAlunos, dadosAlunos);
+    relatorio(alunos, totalAlunos, dadosAlunos); //4. Relatório
     //
     return 0;
 }
@@ -80,6 +81,7 @@ void encontrarMelhorAluno(Aluno alunos[], int n) {
         }
     }
     printf("Nome: %s -- Media: %.2f\n", nome, melhorMedia);
+    printf("\n");
 }
 
 void carregaMatriz(Aluno alunos[], int totalAlunos, float mat[][6]) {
