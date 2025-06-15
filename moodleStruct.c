@@ -90,13 +90,13 @@ void carregaMatriz(Aluno alunos[], int totalAlunos, float mat[][6]) {
     //PREENCHER O ID DO ALUNO
     for (int i = 0; i < linhas; i++) {
         //
-        for (int j = 0; j < 6; j++) {
             mat[i][0] = i; //PREENCHE ID's
             //
-            mat[i][j+1] = alunos[i].notas[j]; //PREENCHE NOTAS
+            for (int j = 0; j < 4; j++) {
+                mat[i][j + 1] = alunos[i].notas[j]; //PREENCHE NOTAS
+            }
             //
             mat[i][5] = alunos[i].media; //PREENCHE MÉDIAS
-        }
     }
 }
 
@@ -182,7 +182,7 @@ void relatorio(Aluno alunos[], int totalAlunos, float mat[][6]) {
                 strcpy(nomeMaiorNota4, alunos[i].nome);
             }
             if (mat[i][4] < menorNota4) {
-                menorNota3 = mat[i][4];
+                menorNota4 = mat[i][4];
                 strcpy(nomeMenorNota4, alunos[i].nome);
             }
         }
