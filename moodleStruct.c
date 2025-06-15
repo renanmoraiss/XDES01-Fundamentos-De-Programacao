@@ -150,8 +150,6 @@ void relatorio(Aluno alunos[], int totalAlunos, float mat[][6]) {
         somaNota2 += mat[i][2];
         somaNota3 += mat[i][3];
         somaNota4 += mat[i][4];
-        //
-        for (int j = 0; j < 6; j++) {
             //
             if (mat[i][1] > maiorNota1) {
                 maiorNota1 = mat[i][1];
@@ -184,7 +182,6 @@ void relatorio(Aluno alunos[], int totalAlunos, float mat[][6]) {
             if (mat[i][4] < menorNota4) {
                 menorNota4 = mat[i][4];
                 strcpy(nomeMenorNota4, alunos[i].nome);
-            }
         }
     }
     //
