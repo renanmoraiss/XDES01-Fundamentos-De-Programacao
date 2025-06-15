@@ -79,7 +79,7 @@ void encontrarMelhorAluno(Aluno alunos[], int n) {
             }
         }
     }
-    printf("Nome: %s -- Media: %0.2f\n", nome, melhorMedia);
+    printf("Nome: %s -- Media: %.2f\n", nome, melhorMedia);
 }
 
 void carregaMatriz(Aluno alunos[], int totalAlunos, float mat[][6]) {
