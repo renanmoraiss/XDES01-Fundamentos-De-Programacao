@@ -3,7 +3,7 @@
 
 struct Artista { //STRUCT CONTENDO OS DADOS DO ARTISTA
     char nome_do_artista[30];
-    char genero[10];
+    char genero[11];
     float total_de_producoes;
     float ouvintes_unicos;
 };
@@ -74,7 +74,7 @@ artista *artistaMaisOuvido(artista vet[], int tam) {
 }
 
 struct GeneroMaisOuvido { //STRUCT PARA ARMAZENAR SOMENTE OS GENEROS MUSICAIS UMA VEZ E OS OUVINTES DE CADA GENERO
-    char nome_genero[10];
+    char nome_genero[11];
     float soma_ouvintes;
 };
 
