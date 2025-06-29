@@ -88,15 +88,26 @@ void generoMaisOuvido(artista vet[], int tam) {
     for (int i = 0; i < tam; i++) { //LOOP PARA RODAR TODOS OS GENEROS E VER QUANTOS DIFERENTES SAO ENCONTRADOS
         generoNovoEncontrado = 0;
         //
-        for (int j = 0; j < generosDiferentes; j++) { //SE OS GENEROS SÃO ==, O VALOR DA VARIÁVEL AUXILIAR MANTÉM. (SEM MUDANÇAS)
+        for (int j = 0; j < generosDiferentes; j++) { //SE OS GENEROS SÃO ==, O VALOR DA VARIÁVEL AUXILIAR MANTÉM (SEM MUDANÇAS)
             if (strcmp(generos[j].nome_genero, vet[i].genero) == 0) {
+                generos[j].soma_ouvintes += vet[i].ouvintes_unicos;
                 generoNovoEncontrado = 1;
             }
         } 
-        if (generoNovoEncontrado == 0) { //SE OS GENEROS NÃO SAO IGUAIS, ELE AUMENTA 1 NA VARIÁVEL E COPIA O NOVO GENERO.
+        if (generoNovoEncontrado == 0) { //SE OS GENEROS NÃO SAO IGUAIS, ELE AUMENTA 1 NA VARIÁVEL E COPIA O NOVO GENERO
             strcpy(generos[generosDiferentes].nome_genero, vet[i].genero);
+            generos[generosDiferentes].soma_ouvintes = vet[i].ouvintes_unicos;
             generosDiferentes++;
         }
     }
-    printf("%d", generosDiferentes);
+    //
+    float generoMaisEscutado = generos[0].soma_ouvintes;
+    int indice = 0;
+    for (int i = 0; i < generosDiferentes; i++) { //PERCORRER OS GENEROS UNICOS E ENCONTRAR O QUE TEM O MAIOR NMR DE OUVINTES
+        if (generos[i].soma_ouvintes > generoMaisEscutado) {
+            generoMaisEscutado = generos[i].soma_ouvintes;
+            indice = i;
+        }
+    }
+    printf("%s\t%0.2f", generos[indice].nome_genero, generoMaisEscutado);
 }
