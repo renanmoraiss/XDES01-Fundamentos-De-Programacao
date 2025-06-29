@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <locale.h>
 
 struct Artista { //STRUCT CONTENDO OS DADOS DO ARTISTA
     char nome_do_artista[30];
@@ -18,6 +19,8 @@ void generoMaisOuvido(artista vet[], int tam); //4a função
 
 
 int main() {
+    setlocale(LC_ALL, "");
+    //
     artista vet[100];
     char nome_arquivo[30];
     int total_artistas;
