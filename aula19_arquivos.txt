@@ -1,0 +1,77 @@
+A linguagem C permite manipular arquivos de diferentes formas.
+
+Ela possui funções que podem ser utilizadas pelo programador para:
+- criar e escrever em novos arquivos;
+- ler o conteúdo de um arquivo, independentemente do tipo de dados que lá estejam armazenados;
+
+Por enquanto, trabalharemos somente com arquivos .txt;
+
+-------------------------------------------------------------
+
+O tipo de variável que usamos para manipular arquivo se chama FILE (maiúsculo)
+
+Por exemplo: FILE *arquivo
+-> cria um ponteiro para um arquivo
+-> Mas por que ponteiro?
+- quando vamos manipular um arquivo, não sabemos qual o tamanho dele e nem quantas linhas (registros) ele possui.
+- ao declarar a variável do tipo FILE e acessar um arquivo, ela apontará para o primeiro registro do arquivo. (primeira linha)
+
+-------------------------------------------------------------
+
+Abertura de um arquivo:
+- Para abrir um arquivo em C, usamos a função fopen;
+- Por sua vez, fopen recebe dois parametros:
+   - nome do arquivo que está sendo aberto
+   - o modo de abertura do arquivo
+   FILE *fopen(const char *filename, const char *mode);
+
+fopen retorna um ponteiro
+-> se o ponteiro for NULL, significa que não conseguiu abrir o arquivo.
+
+-> Modos de abertura do arquivo:
+   - "r", leitura (o arquivo deve existir);
+   - "w", escrita (cria o arquivo se não houver);
+   - "a", escrita (os dados serão adicionados no fim do arquivo ("append"));
+
+   Por enquanto, a maioria dos casos irão utilizar o "r".
+
+--------------------------------------------------------------
+
+Percorrimento do arquivo:
+- Para verificar se chegou no final do arquivo, existe uma função chamada feof(find end of file);
+- feof retorna 0 caso o arquivo tenha chegado ao fim;
+- essa função controla o loop de leitura do arquivo;
+
+-> Dentro do loop é onde se faz a leitura dos registros e associa para as variáveis do programa;
+- Existem diferentes funções para fazer isso;
+- Nesse curso veremos somente a fscanf;
+- fscanf tem o mesmo funcionamento do scanf. No entanto, ela faz a leitura do arquivo, ao inves do teclado.
+- a função retorna a quantidade de elementos que foi lido na linha do arquivo.
+- a função 'desce' o ponteiro para a próxima linha.
+
+Exemplo da estrutura:
+
+FILE *arq;
+arq = fopen("nome_arquivo", "type");
+if (arq == NULL) {
+    return 1;
+}
+int i = 0;
+while (!feof(arq)) {
+    fscanf(arq, ...);
+    i++
+}
+fclose(arq); -> Função que fecha o arquivo depois de utilizado.
+...
+
+--------------------------------------------------------------
+
+Exemplo:
+-> Tenho um arquivo chamado "cadastro.txt", na qual possui nome, idade... de 10 alunos.
+- e se eu quisesse alterar a idade de todos os alunos e salvar esse arquivo atualizado em um outro arquivo?
+
+-> 1o ponto: precisaríamos de um novo arquivo no programa.
+- esse arquivo deverá ser aberto no modo de escrita "w".
+
+-> 2o ponto: os valores precisariam ser escritos nesse arquivo.
+-> para escrever em um arquivo, usamos o fprintf, da mesma forma que o printf.
