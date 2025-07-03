@@ -2,4 +2,4 @@ arroz 20 2.50
 feijao 5 5.50
 tomate 18 10
 arroz 10 5.2
-tomae 9 1.30
+tomate 9 1.30

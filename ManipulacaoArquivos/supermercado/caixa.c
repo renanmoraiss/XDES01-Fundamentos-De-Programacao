@@ -49,7 +49,7 @@ struct Produtos {
 typedef struct Produtos produtos;
 
 void calculaValorFinal(compras vet[], int tam) {
-    produtos vetorPdr[50];
+    produtos vet2[50];
     int totalProdutosDiferentes = 0;
     int produtoNovoEncontrado;
     float somaTotal = 0.0;
@@ -58,21 +58,21 @@ void calculaValorFinal(compras vet[], int tam) {
         produtoNovoEncontrado = 0;
         //
         for (int j = 0; j < totalProdutosDiferentes; j++) {
-            if (strcmp(vetorPdr[i].nomeProduto, vet[i].nome) == 0) {
-                vetorPdr[i].somaDosValores += (float)vet[i].quantidade * vet[i].preco;
+            if (strcmp(vet2[i].nomeProduto, vet[i].nome) == 0) {
+                vet2[i].somaDosValores += (float)vet[i].quantidade * vet[i].preco;
                 produtoNovoEncontrado = 1;
             }
         }
         //
         if (produtoNovoEncontrado == 0) {
-            strcpy(vetorPdr[i].nomeProduto, vet[i].nome);
-            vetorPdr[i].somaDosValores = vet[i].quantidade * vet[i].preco;
+            strcpy(vet2[i].nomeProduto, vet[i].nome);
+            vet2[i].somaDosValores = vet[i].quantidade * vet[i].preco;
             totalProdutosDiferentes++;
         }
     }
     //
     for (int i = 0; i < totalProdutosDiferentes; i++) {
-        somaTotal += vetorPdr[i].somaDosValores;
+        somaTotal += vet2[i].somaDosValores;
     }
     //
     printf("Valor final: %0.2f\n", somaTotal);
