@@ -1,6 +1,3 @@
-/*9) Faça um programa que receba do usuário dois arrays, A e B, com 10 números inteiros cada. Crie um novo array C calculando C = A − B. Mostre na tela os dados
-do array C.*/
-
 #include <stdio.h>
 
 void preencheVetor(int vet[]);

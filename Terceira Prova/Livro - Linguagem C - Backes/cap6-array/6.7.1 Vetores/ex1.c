@@ -1,6 +1,3 @@
-/*1) Crie um programa que leia do teclado seis valores inteiros e em seguida mostra na
-tela os valores lidos.*/
-
 #include <stdio.h>
 
 void preencheVetor(int vetor[]);
