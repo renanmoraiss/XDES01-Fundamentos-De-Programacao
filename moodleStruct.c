@@ -216,4 +216,9 @@ void relatorio(Aluno alunos[], int totalAlunos, float mat[][6]) {
     printf("Aluno com menor Nota: %s\n", nomeMenorNota4);
     printf("\n-----------------------------------------\n");
     //
-}
+}// upadte for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit

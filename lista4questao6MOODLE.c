@@ -15,4 +15,9 @@ int main () {
     }
     printf("%0.2lf\n", soma);
     return 0;
-}
+}// upadte for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit

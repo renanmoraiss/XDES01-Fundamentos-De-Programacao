@@ -23,4 +23,9 @@ vet[6] = 15 + 6 = 21; (vet[i - 1] + i)
 vet[7] = 21 + 7 = 28; (vet[i - 1] + i)
 vet[8] = 28 + 8 = 36; (vet[i - 1] + i)
 vet[9] = 36 + 9 = 45; (vet[i - 1] + i)
-*/
+*/// upadte for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit

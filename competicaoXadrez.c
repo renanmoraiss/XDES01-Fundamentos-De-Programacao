@@ -14,4 +14,9 @@ int main() {
         printf("Nao pode participar do campeonato");
     }
     return 0;
-}
+}// upadte for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit

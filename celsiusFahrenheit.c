@@ -7,4 +7,9 @@ int main () {
     fahrenheit = (celsius * 1.8) + 32;
     printf("Temperatura em Fahrenheit: %d", fahrenheit);
     return 0;
-}
+}// upadte for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit

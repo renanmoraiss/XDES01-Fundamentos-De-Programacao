@@ -82,4 +82,5 @@ int retornaMenor(int vetor[], int tamanho) {
         }
     }
     return menorElemento;
-}
+}// update for commit
+// update for commit

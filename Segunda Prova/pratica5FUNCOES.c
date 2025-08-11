@@ -24,4 +24,5 @@ float calculoExponencial(float base, int expoente) {
     for (int i = 1; i <= expoente; i++) {
         calc *= base;
     } return calc;
-}
+}// update for commit
+// update for commit

@@ -31,4 +31,5 @@ int main () {
     printf("[76,100] = %d\n", intervaloQuatro);
 
     return 0;
-}
+}// update for commit
+// update for commit

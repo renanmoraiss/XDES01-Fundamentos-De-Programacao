@@ -21,4 +21,9 @@ int main() {
 void calc_esfera(float R, float *area, float *volume) {
     *area = 4 * M_PI * (R * R);
     *volume = (4 * M_PI * (R * R * R)) / 3;
-}
+}// upadte for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit

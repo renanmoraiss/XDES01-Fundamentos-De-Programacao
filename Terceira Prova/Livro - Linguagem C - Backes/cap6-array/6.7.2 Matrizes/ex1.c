@@ -37,4 +37,5 @@ int encontraMenorValor(int matriz[][3]) {
     }
     //
     return menorV;
-}
+}// update for commit
+// update for commit

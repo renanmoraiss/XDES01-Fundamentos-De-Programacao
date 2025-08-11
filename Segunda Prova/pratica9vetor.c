@@ -42,4 +42,5 @@ void imprimeVetorQuadrado(float vetCalc[], int tamanho) {
     for (int i = 0; i < tamanho; i++) {
         printf("%0.2f\t", vetCalc[i]);
     }
-}
+}// update for commit
+// update for commit

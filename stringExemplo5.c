@@ -48,4 +48,9 @@ void compararTamanho(char string[], char string2[]) {
 
 //retorna 0 se as strings forem iguais
 // retorna < 0 se a string 1 for menor que a string 2
-//retorna > 0 se a string 1 for maior que a string 2
+//retorna > 0 se a string 1 for maior que a string 2// upadte for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit

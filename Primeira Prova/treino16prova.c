@@ -28,4 +28,5 @@ ESCREVA("voce nao pode participar do campeonato")
 FIM_SE
 
 FIM_ALGORITMO
-*/
+*/// update for commit
+// update for commit

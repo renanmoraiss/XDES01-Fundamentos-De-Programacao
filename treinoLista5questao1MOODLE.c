@@ -33,4 +33,9 @@ float media(float n1, float n2, float n3, char tipoDeMedia) {
     } else if (tipoDeMedia != 'A' && tipoDeMedia != 'P') {
         return -1;
     }
-}
+}// upadte for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit

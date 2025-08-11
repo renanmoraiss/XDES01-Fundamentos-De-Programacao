@@ -25,4 +25,9 @@ int main() {
     printf("Elementos maiores que 5: %d\n", elementosMaioresQue5);
     //
     return 0;
-}
+}// upadte for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit

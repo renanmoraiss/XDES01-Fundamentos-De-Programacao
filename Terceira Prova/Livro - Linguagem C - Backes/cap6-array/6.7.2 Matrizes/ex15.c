@@ -43,4 +43,5 @@ void exibeMatrizB(int matB[][5]) {
             printf("%d\t", matB[i][j]);
         } printf("\n");
     }
-}
+}// update for commit
+// update for commit

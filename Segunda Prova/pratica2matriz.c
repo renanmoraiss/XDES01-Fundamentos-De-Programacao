@@ -116,4 +116,5 @@ void somaColuna(int matriz[][3], int linhas, int colunas) {
     for (int j = 0; j < colunas; j++) {
         printf("%d\t", vetor[j]);
     } printf("\n");
-}
+}// update for commit
+// update for commit

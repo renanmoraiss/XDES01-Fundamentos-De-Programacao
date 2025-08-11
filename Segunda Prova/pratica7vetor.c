@@ -37,4 +37,5 @@ void calcularVetorC(int vetA[], int vetB[], int vetC[], int tamanho) {
         vetC[i] = vetA[i] - vetB[i];
         printf("%d\n", vetC[i]);
     }
-}
+}// update for commit
+// update for commit

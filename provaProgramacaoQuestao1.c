@@ -32,3 +32,9 @@ int main () {
 7º erro (linha 14) -> num = valor ERRADO (num == valor)
 */
 
+// upadte for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit

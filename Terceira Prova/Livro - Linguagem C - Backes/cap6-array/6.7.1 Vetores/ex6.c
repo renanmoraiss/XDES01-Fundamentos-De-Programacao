@@ -29,4 +29,5 @@ void encontraPar(int vetor[]) {
     }
     //
     printf("%d\n", totalPar);
-}
+}// update for commit
+// update for commit

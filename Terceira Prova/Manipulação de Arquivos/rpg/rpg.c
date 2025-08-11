@@ -146,4 +146,5 @@ void jogar(char matriz[][10], int X, int Y) {
             printf("Posicao nao permitida!\n");
         }
     }
-}
+}// update for commit
+// update for commit

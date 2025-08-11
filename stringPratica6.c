@@ -46,4 +46,9 @@ void inverterMensagem(char frase[], int *tamanho) {
         frase[j] = frase[i]; 
         frase[i] = caracter;
     }
-}
+}// upadte for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit

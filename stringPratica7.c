@@ -68,4 +68,9 @@ void contarVogaisEsubstituir(char frase[], char *caracterEscolhido, int *tam, in
     }
     printf("%s\n", frase);
     printf("Total de vogais: %d\n", *totalVogais);
-}
+}// upadte for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit

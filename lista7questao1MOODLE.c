@@ -30,4 +30,9 @@ int retornaPares(int vetor[], int tamanho) {
         }
     }
     return valoresPares;
-}
+}// upadte for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit

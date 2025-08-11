@@ -38,4 +38,9 @@ void calcularQuadrado(float vetor[], float vetorQuadr[], int tamanho) {
         for (int i = 0; i < tamanho; i++) {
             vetorQuadr[i] = pow(vetor[i], 2);
         }
-}
+}// upadte for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit

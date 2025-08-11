@@ -48,4 +48,5 @@ void verificaDados(float *a, float *p) {
             printf("I\n");
         }
     }
-}
+}// update for commit
+// update for commit

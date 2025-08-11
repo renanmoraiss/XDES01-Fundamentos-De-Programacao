@@ -61,4 +61,9 @@ void menorValor(int vetor[], int tamanho, int *menor) {
             *menor = vetor[i];
         }
     }
-}
+}// upadte for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit

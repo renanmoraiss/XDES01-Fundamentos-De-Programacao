@@ -32,4 +32,5 @@ void imprimeValores(int vetor[], float media) {
     } printf("\n");
     //
     printf("%0.2f\n", media);
-}
+}// update for commit
+// update for commit

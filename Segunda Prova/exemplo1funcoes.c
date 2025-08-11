@@ -24,4 +24,5 @@ float calculaMedia(int n1, int n2) {
     float media;
     media = (n1 + n2) / 2;
     return media; //valor calculado é retornado e copiado para a variável media
-}
+}// update for commit
+// update for commit

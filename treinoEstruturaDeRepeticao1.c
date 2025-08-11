@@ -30,4 +30,9 @@ ESTRUTURAS DE REPETIÇÃO (LAÇOS -> LOOPS):
 DIFERENCA DE ESTRUTURA DE REPETICAO E ESTRUTURA CONDICIONAL:
 -> estrutura condicional é para uma tomada de decisao (será testada a condição apenas uma vez) - execucoes: nenhuma ou 1 vez
 -> estrutura de repetição é para repetir um codigo (condição é testada a cada repeticao) - execuções: nenhuma, 1 ou varias vezes
-*/
+*/// upadte for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit

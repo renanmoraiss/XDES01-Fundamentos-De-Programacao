@@ -60,4 +60,5 @@ void calcDesvioPadrao(int vet[], int n) {
     float raizDaVarianca;
     raizDaVarianca = sqrt(mediaQuadrados);
     printf("%0.2f\n", raizDaVarianca);
-}
+}// update for commit
+// update for commit

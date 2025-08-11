@@ -36,4 +36,5 @@ void exibirSoma(int vet[], int x, int y) {
     soma = vet[y] + vet[x];
     //
     printf("%d\n", soma);
-}
+}// update for commit
+// update for commit

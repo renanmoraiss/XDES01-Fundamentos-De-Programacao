@@ -33,4 +33,5 @@ int retornaMaior(int *valor1, int *valor2, int *valor3) {
     } else if ((*valor3 > *valor1) && (*valor3 > *valor2)) {
         return *valor3;
     }
-}
+}// update for commit
+// update for commit

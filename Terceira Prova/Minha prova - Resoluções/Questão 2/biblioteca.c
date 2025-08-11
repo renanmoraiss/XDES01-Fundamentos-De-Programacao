@@ -56,4 +56,5 @@ int contarLivrosPorAutor(livro vet[], int tam, char autor[]) {
         }
     }
     return cont;
-}
+}// update for commit
+// update for commit

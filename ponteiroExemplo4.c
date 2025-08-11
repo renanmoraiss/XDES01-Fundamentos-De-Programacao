@@ -25,4 +25,9 @@ void retornaMaior(float n1, float n2, float *maior) {
     } else {
         *maior = n2;
     }
-}
+}// upadte for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit

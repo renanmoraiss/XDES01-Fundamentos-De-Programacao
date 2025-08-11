@@ -45,4 +45,9 @@ void verificarPalavras(dados vet[], int tam, char palavra[]) {
         }
     }
     printf("%s repetiu %d vezes\n", palavra, contador);
-}
+}// upadte for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit

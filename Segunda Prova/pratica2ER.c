@@ -24,4 +24,5 @@ void imprimeDivisores(int *N) {
             printf("Divisor encontrado: %d\n", i);
         }
     }
-}
+}// update for commit
+// update for commit

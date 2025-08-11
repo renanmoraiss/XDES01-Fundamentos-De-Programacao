@@ -73,4 +73,9 @@ vetor[9 - i] = 1
 temp = vetor[9] // temp = 9
 vetor[i] = vetor[9 - 9]//vetor[0] = 0
 vetor[9 - i] = 0
-*/
+*/// upadte for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit

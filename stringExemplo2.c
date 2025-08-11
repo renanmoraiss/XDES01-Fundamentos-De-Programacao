@@ -29,4 +29,9 @@ void leMensagem(char string[]) {
 
 void tamanhoMensagem(char string[], int *tam) {
     *tam = strlen(string);
-}
+}// upadte for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit

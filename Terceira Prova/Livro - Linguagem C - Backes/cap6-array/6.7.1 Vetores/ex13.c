@@ -30,4 +30,5 @@ void preencheVetor(int vetor[], int tam) {
     for (int k = 0; k < tam; k++) {
         printf("%d\t", vetor[k]);
     }
-}
+}// update for commit
+// update for commit

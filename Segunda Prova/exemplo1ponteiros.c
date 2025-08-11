@@ -17,4 +17,5 @@ printf("Valor armazendo em a: %0.2f\n", *a);
 printf("Valor armazenado em b: %0.2f\n", b);
 
 return 0;
-}
+}// update for commit
+// update for commit

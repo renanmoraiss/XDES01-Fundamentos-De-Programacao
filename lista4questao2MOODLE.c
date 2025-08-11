@@ -28,4 +28,9 @@ int main() {
     printf("%d\n", intervalo4);
     //
     return 0;
-}
+}// upadte for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit

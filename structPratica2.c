@@ -104,4 +104,9 @@ void imprimeDadosAluno(dadosAluno *aluno) {
     for (int i = 0; i < 3; i++) {
         printf("%s %d %s %d %d\n", aluno[i].nome, aluno[i].idade, aluno[i].curso, aluno[i].periodoAtual, aluno[i].anoDeIngresso);
     }
-}
+}// upadte for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit

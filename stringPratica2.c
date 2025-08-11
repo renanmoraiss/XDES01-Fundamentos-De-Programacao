@@ -10,4 +10,9 @@ int main() {
 }
 
 //scanf("%s", frase) -> le ate o primeiro espaço
-//scanf("%[^\n]", frase) -> le a linha toda com espaços
+//scanf("%[^\n]", frase) -> le a linha toda com espaços// upadte for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit

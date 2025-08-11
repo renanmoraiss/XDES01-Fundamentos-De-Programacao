@@ -39,4 +39,5 @@ void calculaMatriz(int mat[][6]) {
     //
     printf("Soma dos elementos abaixo da diagonal principal:\n");
     printf("%d\n", somaValores);
-}
+}// update for commit
+// update for commit

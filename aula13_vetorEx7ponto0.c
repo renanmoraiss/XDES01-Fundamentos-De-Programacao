@@ -23,4 +23,9 @@ int main() {
         printf("%d\t", vetorC[i]);
     }
     return 0;
-}
+}// upadte for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit

@@ -41,4 +41,9 @@ void imprimeDeTrasParaFrente(char frase[], int *tam) {
     for (int i = *tam - 1; i >= 0; i--) {
         printf("%c", frase[i]);
     }
-}
+}// upadte for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit

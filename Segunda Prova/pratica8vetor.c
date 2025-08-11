@@ -31,4 +31,5 @@ int retornaPares(int vet[], int tamanho) {
         }
     }
     return contador;
-}
+}// update for commit
+// update for commit

@@ -28,4 +28,5 @@ void imprimeMatriz(int matriz[][3], int linhas, int colunas) {
             printf("%d\t", matriz[i][j]);
         } printf("\n");
     }
-}
+}// update for commit
+// update for commit

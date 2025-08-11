@@ -20,4 +20,5 @@ void imprimeExclamacao(int n) {
             printf("%c", exclamacao);
         } printf("\n");
     }
-}
+}// update for commit
+// update for commit

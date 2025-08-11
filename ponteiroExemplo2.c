@@ -9,4 +9,9 @@ int main() {
 
     printf("%d %d\n", x, y);
     return 0;
-}
+}// upadte for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit

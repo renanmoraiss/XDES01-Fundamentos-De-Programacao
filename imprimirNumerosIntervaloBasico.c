@@ -47,4 +47,9 @@ ESCREVA("Nao existem valores inteiros entre (a) e (b)")
 FIM_SENÃO
 
 FIM_ALGORITMO
-*/
+*/// upadte for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit

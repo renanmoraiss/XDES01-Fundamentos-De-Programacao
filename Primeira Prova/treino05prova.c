@@ -21,4 +21,5 @@ LEIA altura
 area = (base * altura) / 2
 ESCREVA area
 FIM_ALGORITMO
-*/
+*/// update for commit
+// update for commit

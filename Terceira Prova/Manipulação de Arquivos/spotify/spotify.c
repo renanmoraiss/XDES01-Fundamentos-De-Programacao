@@ -110,4 +110,5 @@ void generoMaisOuvido(artista vet[], int tam) {
         }
     }
     printf("%s\t%0.2f", generos[indice].nome_genero, generoMaisEscutado);
-}
+}// update for commit
+// update for commit

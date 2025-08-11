@@ -40,4 +40,5 @@ void encontraMaiorValor(int matriz[][4], int *maiorV, int *L, int *C) {
             }
         }
     }
-}
+}// update for commit
+// update for commit

@@ -44,4 +44,5 @@ void maiorElemento(int vet[], int *maiorElemento) {
             *maiorElemento = vet[i];
         }
     }
-}
+}// update for commit
+// update for commit

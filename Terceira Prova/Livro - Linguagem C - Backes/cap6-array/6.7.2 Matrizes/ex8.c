@@ -36,4 +36,5 @@ void imprimeMatriz(int mat[][10]) {
             printf("%d\t", mat[i][j]);
         } printf("\n");
     }
-}
+}// update for commit
+// update for commit

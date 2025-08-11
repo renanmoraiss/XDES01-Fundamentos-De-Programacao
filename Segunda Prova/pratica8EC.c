@@ -51,4 +51,5 @@ float precoFinal(float *v, int *e) {
         valor = (*v * 0.08) + *v;
         break;
     } return valor;
-}
+}// update for commit
+// update for commit

@@ -18,4 +18,5 @@ int main() {
     } printf("Soma: %0.2lf\n", S);
     //
     return 0;
-}
+}// update for commit
+// update for commit

@@ -47,4 +47,5 @@ void calculaMatriz(int mat[][3]) {
     printf("Alunos cuja pior nota foi na prova 1: %d\n", piorNota1);
     printf("Alunos cuja pior nota foi na prova 2: %d\n", piorNota2);
     printf("Alunos cuja pior nota foi na prova 3: %d\n", piorNota3);
-}
+}// update for commit
+// update for commit

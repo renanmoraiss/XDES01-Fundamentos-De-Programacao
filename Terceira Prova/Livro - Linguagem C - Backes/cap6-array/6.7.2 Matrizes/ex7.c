@@ -31,4 +31,5 @@ void somaValores(int matriz[][3]) {
         }
     }
     printf("%d\n", somaValores);
-}
+}// update for commit
+// update for commit

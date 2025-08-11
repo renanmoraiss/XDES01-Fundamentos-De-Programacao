@@ -22,4 +22,9 @@ int main () {
     media = notasAluno(num1, num2, num3, calculo);
     printf("%0.2f\n", media);
     return 0;
-}
+}// upadte for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit

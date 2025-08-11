@@ -33,4 +33,5 @@ void imprimeVetor(int vet[]) {
     for (int i = 0; i < TAM; i++) {
         printf("%d\t", vet[i]);
     }
-}
+}// update for commit
+// update for commit

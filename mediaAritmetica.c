@@ -12,4 +12,9 @@ int main() {
     res = (n1 + n2 + n3) / 3;
     printf("A media e: %0.2lf", res);
     return 0;
-}
+}// upadte for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit
+// update for commit
