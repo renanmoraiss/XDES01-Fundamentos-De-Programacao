@@ -11,4 +11,4 @@ a função não pode modificiar o valor original de uma variável passada para a
 -> por referencia:
 muda o valor da variável dentro da função e essa mudança se reflete fora da função.
 não se passa para a função o valor da variável, mas sim o endereço de memória da variável.
-em C, usa o conceito de PONTEIROS.
+em C, usa o conceito de PONTEIROS.# update for commit

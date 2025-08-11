@@ -4,4 +4,4 @@ a. *pti -> errado
 b. int *pti -> correto
 c. int_pti pti -> errado
 d. *int pti - errado
-e. &i -> errado
+e. &i -> errado# update for commit

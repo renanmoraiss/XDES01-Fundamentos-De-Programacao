@@ -6,4 +6,4 @@ a. ao se executar *pti = 20; i passará a ter o valor 20? Sim, pois se *pti para
 b. pti é igual a 10? Não, pti armazena um endereço, e não um valor (aponta para i).
 c. pti armazena o endereço de i? Sim, pois pti = &i.
 d. ao se alterar o valor de i, *pti será modificado? Sim, pois *pti aponta para i, logo quando i muda, *pti tbm é alterado.
-e. *pti é igual a 10? i = 10 e pti aponta para i, logo *pti == 10.
+e. *pti é igual a 10? i = 10 e pti aponta para i, logo *pti == 10.# update for commit

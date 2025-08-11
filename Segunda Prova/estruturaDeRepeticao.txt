@@ -6,4 +6,4 @@ até que uma condição de interrupção seja satisfeita.
 -> 3 tipos de Estrutura de Repetição (loop):
 - for
 - while
-- do... while
+- do... while# update for commit

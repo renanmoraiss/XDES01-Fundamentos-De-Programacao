@@ -12,4 +12,4 @@ INICIALIZAÇÃO DE PONTEIROS:
 exemplo: 
 declaração: float *a, b;
 inicialização: a = &b; -> ponteiro a aponte para o endereço da variável b
-                       -> qualquer modificação feita em b também afetará a variável a.
+                       -> qualquer modificação feita em b também afetará a variável a.# update for commit

@@ -68,4 +68,5 @@ Acesso aos dados:
 Struct com typedef:
      - para não ser necessário colocar a palavra reservada struct na frente do tipo
      da variável, podemos utilizar o comando typedef.
-     - ele cria o nome de um tipo que possa ser utilizado em todo o programa.
+     - ele cria o nome de um tipo que possa ser utilizado em todo o programa.# update for commit
+# update for commit
