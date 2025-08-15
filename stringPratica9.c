@@ -142,9 +142,4 @@ void verificarSubstring(char stringS1[], char stringS2[]) {
     } else {
         printf("N\n");
     }
-}// upadte for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
+}

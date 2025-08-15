@@ -11,9 +11,4 @@ int main () {
     } 
     printf("%d", negativo);
     return 0;
-}// upadte for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
+}

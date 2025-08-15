@@ -10,5 +10,4 @@ int main() {
 
     printf("%d %d\n", x, y); //x = 8 e y = 7.
     return 0;
-}// update for commit
-// update for commit
+}

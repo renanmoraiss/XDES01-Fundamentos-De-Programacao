@@ -40,5 +40,4 @@ int main() {
     printf("Menor Idade: %d\n", menorIdd);
     printf("Quantidade de mulheres com salario ate R$100,00: %d", qtdMulheresSalarioAte100Reais);
     return 0;
-}// update for commit
-// update for commit
+}

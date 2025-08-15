@@ -76,5 +76,4 @@ void calculaValorFinal(compras vet[], int tam) {
     }
     //
     printf("Valor final: %0.2f\n", somaTotal);
-}// update for commit
-// update for commit
+}

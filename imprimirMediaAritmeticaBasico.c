@@ -22,9 +22,4 @@ int main() {
     printf("MEDIA = %0.2f\n", media);
 
         return 0;
-}// upadte for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
+}

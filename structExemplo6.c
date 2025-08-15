@@ -17,9 +17,4 @@ int main() {
     tipoAluno cadAluno[2];
     float media = 0;
     int cursoA = 0, cursoB = 0, alunosPeriodizados = 0, aux;
-}// upadte for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
+}

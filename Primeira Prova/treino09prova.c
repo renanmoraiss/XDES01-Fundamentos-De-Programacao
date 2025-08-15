@@ -31,5 +31,4 @@ int main() {
     printf("O valor de PI e: %0.2lf", pi);
 
     return 0;
-}// update for commit
-// update for commit
+}

@@ -27,5 +27,4 @@ void troca(float *a, float *b) {
     temp = *b;
     *b = *a;
     *a = temp;
-}// update for commit
-// update for commit
+}

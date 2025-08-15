@@ -36,9 +36,4 @@ void copiaMensagem(char string[], char string2[]) {
 void exibeMensagem(char string[], char string2[]) {
     printf("String original: %s\n", string);
     printf("String copia: %s\n", string2);
-}// upadte for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
+}

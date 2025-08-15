@@ -61,5 +61,4 @@ void gerarRelatorio(float notas[][3]) {
         }
     }
     printf("%d %d %d", contPiorNota1, contPiorNota2, contPiorNota3);
-}// update for commit
-// update for commit
+}

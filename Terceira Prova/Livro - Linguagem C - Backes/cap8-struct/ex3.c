@@ -21,5 +21,4 @@ int main() {
     printf("%0.2f\n", D);
     //
     return 0;
-}// update for commit
-// update for commit
+}

@@ -24,5 +24,4 @@ float volumeCilindro(float altura, float raio) {
     volume = M_PI * (raio * raio) * altura;
     //
     return volume;
-}// update for commit
-// update for commit
+}

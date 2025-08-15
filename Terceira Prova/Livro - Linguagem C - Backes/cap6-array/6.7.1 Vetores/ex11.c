@@ -38,5 +38,4 @@ void imprimeVetor(float vetRes[]) {
     }
     //
     printf("\n");
-}// update for commit
-// update for commit
+}

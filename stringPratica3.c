@@ -28,9 +28,4 @@ void imprimeQuatroLetras(char mensagem[]) {
     for (int i = 0; i < 4; i++) {
         printf("%c", mensagem[i]);
     }
-}// upadte for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
+}

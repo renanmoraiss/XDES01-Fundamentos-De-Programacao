@@ -64,5 +64,4 @@ printf("Frase digitada: %s\n", frase);
 PARA LER UMA LINHA COMPLETA COM ESPAÇOS COM SCANF:
 scanf("%[^\n]", frase);
 
----------------------------------------------------# update for commit
-# update for commit
+---------------------------------------------------

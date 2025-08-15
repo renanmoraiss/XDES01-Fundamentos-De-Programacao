@@ -47,9 +47,4 @@ int main() {
     printf("Media: %0.2f\n", res);
     //
     return 0;
-}// upadte for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
+}

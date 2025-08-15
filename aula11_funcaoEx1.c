@@ -52,9 +52,4 @@ float retornaMaior(float n1, float n2) {
     } else {
         return n2;
     }
-}// upadte for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
+}

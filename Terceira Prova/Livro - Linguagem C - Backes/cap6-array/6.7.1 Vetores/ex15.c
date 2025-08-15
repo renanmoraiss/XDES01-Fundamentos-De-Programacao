@@ -21,5 +21,4 @@ int main() {
     for (int i = 0; i < 10; i++) {
         printf("%0.2f\t", vet[i]);
     }
-}// update for commit
-// update for commit
+}

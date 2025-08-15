@@ -48,5 +48,4 @@ int main() {
     printf("NOME: %s, IDADE: %d\n", nomeMaisVelho, maisVelho);
     //
     return 0;
-}// update for commit
-// update for commit
+}

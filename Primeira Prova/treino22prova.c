@@ -11,5 +11,4 @@ int main() {
 	printf("%0.2f", pow(number, 2));	
 	}
 	return 0;
-}// update for commit
-// update for commit
+}

@@ -29,5 +29,4 @@ void multiplica(float vet[], int tamanho, float valor) {
     for (int i = 0; i < tamanho; i++) {
         vet[i] = vet[i] * valor;
     }
-}// update for commit
-// update for commit
+}

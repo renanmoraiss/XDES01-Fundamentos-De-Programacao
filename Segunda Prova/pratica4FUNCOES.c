@@ -35,5 +35,4 @@ float calculoMedia(float n1, float n2, float n3, char escolha) {
     } else if (escolha != 'A' && escolha != 'P') {
         return -1;
     }
-}// update for commit
-// update for commit
+}

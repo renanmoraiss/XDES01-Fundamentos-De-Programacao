@@ -33,9 +33,4 @@ void contarCaracteres(char mensagem[]) {
         i++;
     }
     printf("'%s' possui %d caracteres", mensagem, contador);
-}// upadte for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
+}

@@ -30,5 +30,4 @@ int somaDobro(int *a, int *b) {
     *b = 2 * *b;
     somaD = *a + *b;
     return somaD;
-}// update for commit
-// update for commit
+}

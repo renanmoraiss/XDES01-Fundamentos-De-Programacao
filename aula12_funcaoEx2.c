@@ -29,9 +29,4 @@ int somaDobro(int *a, int *b) {
     *b *= 2;
     dobro = *a + *b;
     return dobro;
-}// upadte for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
+}

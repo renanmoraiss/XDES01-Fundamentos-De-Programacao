@@ -34,5 +34,4 @@ de receber as duas strings, caso contrário erros poderão ocorrer.
 - a função strcmp() compara o tamanho da string1 com a string2.
 - se as duas forem iguais, a função retorna zero.
 
-----------------------------------------------------------------------------------------# update for commit
-# update for commit
+----------------------------------------------------------------------------------------

@@ -43,5 +43,4 @@ void calcMatriz(int matriz[][5]) {
     //
     printf("Soma dos elementos nao pertencentes a diagonal principal e secundaria:\n");
     printf("%d\n", somaValores);
-}// update for commit
-// update for commit
+}

@@ -39,9 +39,4 @@ void encontraIguais(int vet[], int tam) {
             }
         }
     }
-}// upadte for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
+}

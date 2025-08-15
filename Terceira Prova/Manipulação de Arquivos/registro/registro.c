@@ -136,5 +136,4 @@ void criarOutroArquivo(dados aluno[], int tamanho, char nomeArq[]) {
         fprintf(arqSaida, "%s\t%d\t%s\t%d\t%d\n", aluno[i].nomeDoAluno, aluno[i].idade, aluno[i].curso, aluno[i].periodo, aluno[i].anoDeIngresso);
     }
     fclose(arqSaida);
-}// update for commit
-// update for commit
+}

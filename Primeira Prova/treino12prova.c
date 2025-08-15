@@ -18,29 +18,3 @@ int main() {
     }
     return 0;
 }
-
-/*
-ALGORITMO
-DECLARE n1, n2, media REAL
-ESCREVA ("Digite a primeira nota do aluno: ")
-LEIA (n1)
-ESCREVA ("Digite a segunda nota do aluno: ")
-LEIA (n2)
-
-media <- (n1 + n2) / 2
-
-SE ((media >= 0.0) E (media < 3)) ENTÃO
-ESCREVA("Reprovado")
-FIM_SE
-
-SE ((media >= 3.0) E (media < 6)) ENTÃO
-ESCREVA("Exame")
-FIM_SE
-
-SE ((media >= 6.0) E (media <= 10)) ENTÃO
-ESCREVA ("Aprovado")
-FIM_SE
-
-FIM_ALGORITMO
-*/// update for commit
-// update for commit

@@ -8,4 +8,4 @@ break é utilizado em algumas estruturas:
 para evitar que os cases "caiam" uns nos outros.
 
 NÃO É UTILIZADO DIRETAMENTE EM IF, ELSE E ELSE IF.
-MAS SE O IF, ELSE OU ELSE IF ESTIVER DENTRO DE UM LOOP OU SWITCH, AÍ SIM PODE USAR.# update for commit
+MAS SE O IF, ELSE OU ELSE IF ESTIVER DENTRO DE UM LOOP OU SWITCH, AÍ SIM PODE USAR.

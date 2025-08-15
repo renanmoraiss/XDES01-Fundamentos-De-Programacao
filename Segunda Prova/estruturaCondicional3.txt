@@ -25,4 +25,4 @@ switch (variavel) {
     comandos...;
 }
 
-switch é muito usado para criar menus.# update for commit
+switch é muito usado para criar menus.

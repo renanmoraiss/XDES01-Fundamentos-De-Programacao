@@ -31,9 +31,4 @@ void multiplica(float vet[], int tamanho, float valor) {
     for (int i = 0; i < tamanho; i++) {
         vet[i] *= valor;
     }
-}// upadte for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
+}

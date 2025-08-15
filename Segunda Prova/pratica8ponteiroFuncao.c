@@ -12,5 +12,4 @@ int main() {
 
     printf("%d %d %d\n", a, b, c); // 5 12 2 
     return 0;
-}// update for commit
-// update for commit
+}

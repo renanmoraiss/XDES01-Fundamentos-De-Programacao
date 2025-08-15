@@ -19,9 +19,4 @@ void imprimeExclamacao(int n) {
             printf("!");
         } printf("\n");
     }
-}// upadte for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
+}

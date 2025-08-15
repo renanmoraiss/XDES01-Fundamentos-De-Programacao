@@ -24,5 +24,4 @@ void valorParOuImpar(int *valor1) {
     } else {
         printf("Impar");
     }
-}// update for commit
-// update for commit
+}

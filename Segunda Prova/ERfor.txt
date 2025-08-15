@@ -9,4 +9,4 @@ Sintaxe:
 
 for (inicialização; condição; transformação) {
     bloco de comandos...
-}# update for commit
+}

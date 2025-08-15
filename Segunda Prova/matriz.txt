@@ -10,4 +10,4 @@ o número de colunas (mas n necessariamente o número de linhas).
 
 -> Alocação Estática de Matriz:
 - sintaxe:
-tipoDeDado nomeDaMatriz[qtdLinhas][qtdColunas];# update for commit
+tipoDeDado nomeDaMatriz[qtdLinhas][qtdColunas];

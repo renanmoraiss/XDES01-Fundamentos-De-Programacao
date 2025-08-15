@@ -22,9 +22,4 @@ int main() {
 
 void soma(int *n1, int *n2) {
     *n1 = *n1 + *n2;
-}// upadte for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
+}

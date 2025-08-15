@@ -11,4 +11,4 @@ A modularização visa facilitar:
 - escalabilidade do sistema;
 Pois permite que diferentes partes sejam desenvolvidas e testadas separadamente.
 
-Em C, a Modularização ganha o nome "Funçao".# update for commit
+Em C, a Modularização ganha o nome "Funçao".

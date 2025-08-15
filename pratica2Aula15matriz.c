@@ -95,9 +95,4 @@ void alteraColuna(int matriz[][3], int linhas, int colunas) {
         matriz[i][colunaEscolhida] *= valorEscolhido;
         printf("%d\n", matriz[i][colunaEscolhida]);
     }
-}// upadte for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
+}

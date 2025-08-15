@@ -13,9 +13,4 @@ int main() {
     struct estoque prodEstoque = {1, 30, 65.8};
 
     return 0;
-}// upadte for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
+}

@@ -38,5 +38,4 @@ void calcMatriz(int mat[][5]) {
     }
     result = somaElementosDiagonalSecundaria - somaElementosForaDasDiagonais1e2; //result = -5 - 15 = -20
     printf("Resultado: %d\n", result);
-}// update for commit
-// update for commit
+}

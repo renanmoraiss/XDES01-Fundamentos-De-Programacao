@@ -13,21 +13,3 @@ int main() {
     }
     return 0;
 }
-
-/*
-ALGORITMO
-DECLARE n1 INTEIRO
-ESCREVA("Digite um valor: ")
-LEIA (n1)
-
-SE (n1 % 2 = 0) ENTÃO
-ESCREVA("par")
-FIM_SE
-
-SE (n1 % 2 ≠ 0) ENTÃO
-ESCREVA("impar")
-FIM_SE
-
-FIM_ALGORITMO
-*/// update for commit
-// update for commit

@@ -12,18 +12,3 @@ int main() {
     printf("Salario a receber: %0.2f\n", salarioFinal);
     return 0;
 }
-
-/*
-ALGORITMO
-DECLARE salarioBase, gratificacao, imposto, salarioFinal REAL
-ESCREVA("Escreva o salario base do funcionario: ")
-LEIA salarioBase
-gratificacao <- salarioBase * 0.05
-ESCREVA gratificacao
-imposto <- salarioBase * 0.07
-ESCREVA imposto
-salarioFinal = salarioBase + gratificacao - imposto
-ESCREVA salarioFINAL
-FIM_ALGORITMO
-*/// update for commit
-// update for commit

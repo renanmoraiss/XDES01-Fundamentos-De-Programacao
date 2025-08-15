@@ -29,5 +29,4 @@ float retornaMenor(float *valor1, float *valor2) {
     } else {
         return *valor2;
     }
-}// update for commit
-// update for commit
+}

@@ -35,5 +35,4 @@ void encontraValores(int mat[][4], int *total) {
             }
         }
     }
-}// update for commit
-// update for commit
+}

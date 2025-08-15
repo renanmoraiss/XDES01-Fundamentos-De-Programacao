@@ -42,9 +42,4 @@ printf("menor idade: %d\n", menorIdd);
 printf("mulheres com salario ate 100: %d\n", mulheresSalarioAte100);
 //
 return 0;
-}// upadte for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
+}

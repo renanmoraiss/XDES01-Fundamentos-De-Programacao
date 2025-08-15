@@ -5,9 +5,4 @@ int main() {
     for (n1 = 1; n1 <= 10; n1 += 1) {
         printf("%d\n", n1);
     } return 0;
-}// upadte for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
+}

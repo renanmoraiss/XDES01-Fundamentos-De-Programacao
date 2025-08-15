@@ -38,5 +38,4 @@ endereço de memória onde a variável está armazenada, e não uma simples cóp
 -> Assim, usando o endereço de memória da variável, qualquer alteração que a variável 
 sofra dentro da função será refletida fora da função.
 
--> Para passar para a função um parâmetro por REFERÊNCIA, a função precisa usar PONTEIROS.# update for commit
-# update for commit
+-> Para passar para a função um parâmetro por REFERÊNCIA, a função precisa usar PONTEIROS.

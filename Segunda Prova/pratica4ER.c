@@ -51,5 +51,4 @@ int main() {
     printf("Porcentagem de jogadores com mais de 80 kg: %0.2f\n", porcentagemDeJogadoresComMaisDe80kg);
 
     return 0;
-}// update for commit
-// update for commit
+}

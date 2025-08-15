@@ -115,5 +115,4 @@ void somaComOMaiorValor(int vet[], int tamanho, int maiorElemento) {
         vet[i] = vet[i] + maiorElemento;
         printf("%d\t", vet[i]);
     }
-}// update for commit
-// update for commit
+}

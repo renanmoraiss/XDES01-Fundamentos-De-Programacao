@@ -180,5 +180,4 @@ void imprimeOpcaoTres(float res[][NUM_MEDIDAS], int linhas, int colunas, int opc
             printf("%0.2f\t", res[opcaoEscolhida][j]);
         } printf("\n");
     }
-}// update for commit
-// update for commit
+}

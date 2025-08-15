@@ -8,9 +8,4 @@ int main() {
         contador +=1;
     } while (contador <= 18);
     return 0;
-}// upadte for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
+}

@@ -9,4 +9,4 @@ Sintaxe:
 
 do {
     bloco de comandos...
-} while (condição);# update for commit
+} while (condição);

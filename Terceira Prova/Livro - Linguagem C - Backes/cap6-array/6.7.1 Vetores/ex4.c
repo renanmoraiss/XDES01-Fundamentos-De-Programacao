@@ -22,5 +22,4 @@ void exibeVetor(int vet[]) {
     for (int i = 0; i < 6; i++) {
         printf("%d\n", vet[i]);
     }
-}// update for commit
-// update for commit
+}

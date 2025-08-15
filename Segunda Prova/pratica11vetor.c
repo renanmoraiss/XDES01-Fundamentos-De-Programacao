@@ -42,5 +42,4 @@ void maiorMenor(int vet[], int tam, int *maior, int *menor) {
             *menor = vet[i];
         }
     }
-}// update for commit
-// update for commit
+}

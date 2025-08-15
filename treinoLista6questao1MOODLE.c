@@ -24,9 +24,4 @@ int main() {
 
 void alterarValor(int *a, int *b) {
     *a += *b;
-}// upadte for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
+}

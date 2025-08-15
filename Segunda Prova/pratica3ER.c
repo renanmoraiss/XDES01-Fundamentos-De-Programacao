@@ -37,5 +37,4 @@ float calculaMedia(int *N, float *s) {
     float media;
     media = *s / (float)*N;
     return media;
-}// update for commit
-// update for commit
+}

@@ -27,9 +27,4 @@ void troca(float *a, float *b) {
     temporario = *a;
     *a = *b;
     *b = temporario;
-}// upadte for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
+}

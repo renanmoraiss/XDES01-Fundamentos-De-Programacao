@@ -44,9 +44,4 @@ void imprimeAluno(dados vet[], int tamanho, char nomeArquivo[]) {
         fprintf(arqSaida, "%s %d %s", vet[i].nome, vet[i].idade+1, vet[i].curso);
     }
     fclose (arqSaida);
-}// upadte for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
+}

@@ -31,7 +31,3 @@ int retornaMenor(int *valor1, int *valor2) {
         return *valor2;
     }
 }
-
-//quando se está lidando com ponteiro, não se deve usar o & no scanf (pois o ponteiro já é o endereço).
-//Só se usa o & no scanf com variável comum.// update for commit
-// update for commit

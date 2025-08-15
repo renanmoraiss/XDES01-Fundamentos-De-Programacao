@@ -12,23 +12,3 @@ int main () {
     }
     return 0;
 }
-
-/*
-ALGORITMO
-DECLARE n, i INTEIRO
-ESCREVA("Digite um valor inteiro: ")
-LEIA (n)
-
-PARA (i = 1; i <= n; i += 1)
-SE (n % i = 0)
-ESCREVA("Divisor encontrado: (i)")
-FIM_SE
-FIM_PARA
-
-FIM_ALGORITMO
-*/// upadte for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit

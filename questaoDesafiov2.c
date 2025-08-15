@@ -43,9 +43,4 @@ void encontraIguais(int vetor[], int tamanho) {
             }
         }
     }
-}// upadte for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
+}

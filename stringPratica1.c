@@ -35,9 +35,4 @@ void testarCaractere(char palavra[], char caractereEscolhido) {
         }
     }
     printf("'%c' aparece %d vezes na palavra '%s'", caractereEscolhido, contador, palavra);
-}// upadte for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
+}

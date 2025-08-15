@@ -24,5 +24,4 @@ void verificaIdade(int *idd) {
     } else {
         printf("Com %d anos voce nao pode participar", *idd);
     }
-}// update for commit
-// update for commit
+}

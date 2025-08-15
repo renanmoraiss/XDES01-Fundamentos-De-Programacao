@@ -74,5 +74,4 @@ Exemplo:
 - esse arquivo deverá ser aberto no modo de escrita "w".
 
 -> 2o ponto: os valores precisariam ser escritos nesse arquivo.
--> para escrever em um arquivo, usamos o fprintf, da mesma forma que o printf.# update for commit
-# update for commit
+-> para escrever em um arquivo, usamos o fprintf, da mesma forma que o printf.

@@ -16,9 +16,4 @@ int main () {
     scanf("%d", &num2);
     res = retornaMaior(num1, num2);
     printf("%d", res);
-}// upadte for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
+}

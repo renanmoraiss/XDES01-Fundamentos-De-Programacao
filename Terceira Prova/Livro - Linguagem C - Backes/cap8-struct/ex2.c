@@ -27,5 +27,4 @@ int main() {
     printf("A distancia entre (0,0) e (%d,%d) eh de %0.2f\n", ponto.posicaoX, ponto.posicaoY, raiz);
     //
     return 0;
-}// update for commit
-// update for commit
+}

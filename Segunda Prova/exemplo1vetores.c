@@ -10,10 +10,3 @@ int main() {
 
     return 0;
 }
-
-/* 
-Exemplo do vetor na memória: 
-Valor 5 9 10
-Pos. 0 1 2 3 4 5 6 7 8 9 
-*/// update for commit
-// update for commit

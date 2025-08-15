@@ -35,5 +35,4 @@ void encontraValores(float vet[], float *soma, int *totalNegativos) {
             *soma += vet[i];
         }
     }
-}// update for commit
-// update for commit
+}

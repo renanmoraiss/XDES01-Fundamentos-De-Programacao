@@ -44,5 +44,4 @@ o seu tipo de retorno, o seu nome e seus parâmetros de entrada.
 exemplo: 
 void imprimeBomDia() { -> não recebe parâmetro de entrada e nem retorna algo.
     printf("Bom Dia");
-}# update for commit
-# update for commit
+}

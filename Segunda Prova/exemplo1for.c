@@ -6,8 +6,3 @@ int main() {
     }
     return 0;
 }
-
-//int i = 1 -> declara e inicializa a variável de controle
-//i <= 10 -> testa a condição para permanecer no loop
-//i++ -> incrementa a variável de controle// update for commit
-// update for commit

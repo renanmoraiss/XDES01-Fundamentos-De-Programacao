@@ -68,9 +68,4 @@ void verificarPalindromo(char frase[], char copia[], int *tam) {
     } else {
         printf("'%s' nao e um palindromo\n", frase);
     }
-}// upadte for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
+}

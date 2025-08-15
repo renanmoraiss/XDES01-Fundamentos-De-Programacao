@@ -21,9 +21,4 @@ int main() {
     printf("%d %d %0.2f", prodEstoque.id, prodEstoque.quantidade, prodEstoque.valor);
 
     return 0;
-}// upadte for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
+}

@@ -24,5 +24,4 @@ void verificaCodigo(int *code) {
     } else {
         printf("Acesso negado");
     }
-}// update for commit
-// update for commit
+}

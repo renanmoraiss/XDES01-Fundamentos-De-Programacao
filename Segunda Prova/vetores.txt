@@ -23,4 +23,4 @@ tipoDeDado nomeDoVetor[tamanhoDoVetor];
 -> A inicialização do vetor tbm pode ser feita com a seguinte sintaxe:
 int vet[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}; -> aloca e inicializa o vetor vet com 10 posições.
 Valor 1 2 3 4 5 6 7 8 9 10
-Pos.  0 1 2 3 4 5 6 7 8 9# update for commit
+Pos.  0 1 2 3 4 5 6 7 8 9

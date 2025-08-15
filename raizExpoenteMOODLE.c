@@ -11,10 +11,4 @@ int main() {
         printf("%.2lf", pow(numero,2));
     }
     return 0;
-
-}// upadte for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
+}

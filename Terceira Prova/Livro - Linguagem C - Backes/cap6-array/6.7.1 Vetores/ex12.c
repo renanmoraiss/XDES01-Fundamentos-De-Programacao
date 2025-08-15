@@ -26,5 +26,4 @@ int main() {
     printf("Numeros repetidos: %d\n", contador);
     //
     return 0;
-}// update for commit
-// update for commit
+}

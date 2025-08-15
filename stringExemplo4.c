@@ -39,9 +39,4 @@ void concatenaString(char string[], char string2[]) {
 
 void exibeStringConcatenada(char string[]) {
     printf("String concatenada: %s\n", string);
-}// upadte for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
+}

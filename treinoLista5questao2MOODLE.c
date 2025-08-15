@@ -26,9 +26,4 @@ float calculo(float base, int expoente) {
         calc *= base;
     }
     return calc;
-}// upadte for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
+}

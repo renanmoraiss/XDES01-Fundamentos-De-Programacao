@@ -13,9 +13,4 @@ int main () {
     scanf("%f", &r);
     res = volumeCilindro(a, r);
     printf("%0.2f", res);
-}// upadte for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
+}

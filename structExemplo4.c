@@ -24,9 +24,4 @@ int main() {
     printf("%d\n", qtd);
 
     return 0;
-}// upadte for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
+}

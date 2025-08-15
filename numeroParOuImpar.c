@@ -11,9 +11,4 @@ int main() {
     else {
         printf("%d e impar", n1);
     }
-}// upadte for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
+}

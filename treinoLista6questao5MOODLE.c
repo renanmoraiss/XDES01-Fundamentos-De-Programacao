@@ -28,9 +28,4 @@ void lerNotas(float *n1, float *n2) {
 void calcularMedias(float n1, float n2, float *mediaSimples, float *mediaPonderada) {
     *mediaSimples = (n1 + n2) / 2;
     *mediaPonderada = (n1 + (n2 * 2)) / 3;
-}// upadte for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
-// update for commit
+}

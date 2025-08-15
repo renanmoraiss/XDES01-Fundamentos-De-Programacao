@@ -24,5 +24,4 @@ void repete(int *A, int *B) {
     for (int i = *A + 1; i < *B; i++) {
         printf("%d\t", i);
     }
-}// update for commit
-// update for commit
+}
