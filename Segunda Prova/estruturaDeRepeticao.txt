@@ -1,9 +1,0 @@
-Permite que um bloco de comandos seja executado repetidamente, 
-até que uma condição de interrupção seja satisfeita.
--> Diminui o número de linhas do código;
--> Garante flexibilidade da solução;
-
--> 3 tipos de Estrutura de Repetição (loop):
-- for
-- while
-- do... while
